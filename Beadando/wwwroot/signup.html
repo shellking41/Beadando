@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRESZ Teszt Gyakorló - Bejelentkezés/Regisztráció</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link href="/css/site.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">KRESZ Teszt Gyakorló</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/" id="homeLink">Főoldal</a>
+                    </li>
+                    <li class="nav-item" id="loginNav">
+                        <a class="nav-link active" href="#" id="loginLink">Bejelentkezés</a>
+                    </li>
+                    <li class="nav-item" id="registerNav">
+                        <a class="nav-link" href="#" id="registerLink">Regisztráció</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+      
+        <form id="loginForm" class="form-container">
+            <h2 class="mb-4">Bejelentkezés</h2>
+            <div class="mb-3">
+                <label for="loginEmail" class="form-label">Email cím</label>
+                <input type="email" class="form-control" id="loginEmail" required>
+            </div>
+            <div class="mb-3">
+                <label for="loginPassword" class="form-label">Jelszó</label>
+                <input type="password" class="form-control" id="loginPassword" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Bejelentkezés</button>
+            <div class="mt-3 text-center">
+                <p>Még nincs fiókja? <a href="#" id="showRegisterForm">Regisztráljon itt!</a></p>
+            </div>
+        </form>
+
+        
+        <form id="registerForm" class="form-container d-none">
+            <h2 class="mb-4">Regisztráció</h2>
+            <div class="mb-3">
+                <label for="registerName" class="form-label">Név</label>
+                <input type="text" class="form-control" id="registerName" required>
+            </div>
+            <div class="mb-3">
+                <label for="registerEmail" class="form-label">Email cím</label>
+                <input type="email" class="form-control" id="registerEmail" required>
+            </div>
+            <div class="mb-3">
+                <label for="registerPassword" class="form-label">Jelszó</label>
+                <input type="password" class="form-control" id="registerPassword" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Regisztráció</button>
+            <div class="mt-3 text-center">
+                <p>Már van fiókja? <a href="#" id="showLoginForm">Jelentkezzen be itt!</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <script src="/js/site.js"></script>
+</body>
+</html> 

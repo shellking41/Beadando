@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRESZ Teszt Gyakorló</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <link href="/css/site.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">KRESZ Teszt Gyakorló</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" id="homeLink">Főoldal</a>
+                    </li>
+                    <li class="nav-item d-none" id="startQuizNav">
+                        <a class="nav-link" href="#" id="startQuizLink">Új Teszt</a>
+                    </li>
+                    <li class="nav-item d-none" id="createQuestionNav">
+                        <a class="nav-link" href="#" id="createQuestionLink">Kérdés létrehozása</a>
+                    </li>
+                    <li class="nav-item d-none" id="resultsNav">
+                        <a class="nav-link" href="#" id="resultsLink">Eredményeim</a>
+                    </li>
+                    <li class="nav-item d-none" id="logoutNav">
+                        <button class="btn btn-link nav-link" id="logoutLink">Kijelentkezés</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+     
+        <div id="mainContent" class="d-none">
+            <div id="welcomeSection">
+                <h2>Üdvözöljük a KRESZ Teszt Gyakorló oldalon!</h2>
+                <div id="userContent" class="alert alert-success"></div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Új teszt indítása</h5>
+                                <p class="card-text">Kezdjen el egy új KRESZ tesztet a gyakorláshoz.</p>
+                                <button class="btn btn-primary" id="newQuizBtn">Teszt indítása</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Korábbi eredmények</h5>
+                                <p class="card-text">Tekintse meg korábbi tesztjeinek eredményeit.</p>
+                                <button class="btn btn-secondary" id="viewResultsBtn">Eredmények megtekintése</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div id="quizSection" class="d-none">
+                <h2>KRESZ Teszt</h2>
+                <div id="quizContent">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title" id="questionText"></h5>
+                            <div id="answerOptions" class="list-group">
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" id="submitAnswer" disabled>Következő kérdés</button>
+                </div>
+            </div>
+
+          
+            <div id="resultsSection" class="d-none">
+                <h2>Eredményeim</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Dátum</th>
+                                <th>Pontszám</th>
+                                <th>Százalék</th>
+                                <th>Státusz</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resultsTableBody">
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+      
+        <div id="createQuestionSection" class="d-none">
+            <h2>Új kérdés létrehozása</h2>
+            <div class="card">
+                <div class="card-body">
+                    <form id="createQuestionForm">
+                        <div class="mb-3">
+                            <label for="createQuestionText" class="form-label">Kérdés szövege</label>
+                            <textarea class="form-control" id="createQuestionText" name="text" rows="3" required></textarea>
+                        </div>
+                        <div id="answersContainer">
+                            <h4 class="mt-4">Válaszok</h4>
+                            <div class="answer-group mb-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control answer-text" placeholder="Válasz szövege" required>
+                                    <div class="input-group-text">
+                                        <input type="radio" name="correctAnswer" class="correct-answer" required>
+                                        <label class="ms-2 mb-0">Helyes válasz</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="answer-group mb-3">
+                                <div class="input-group">
+                                    <input type="text" class="form-control answer-text" placeholder="Válasz szövege" required>
+                                    <div class="input-group-text">
+                                        <input type="radio" name="correctAnswer" class="correct-answer" required>
+                                        <label class="ms-2 mb-0">Helyes válasz</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-secondary mb-3" id="addAnswerBtn">+ Új válasz hozzáadása</button>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Kérdés mentése</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+       
+        <div id="noQuestionsWarning" class="d-none">
+            <div class="alert alert-warning">
+                <h4 class="alert-heading">Nincsenek még kérdések!</h4>
+                <p>A teszt indításához először hozzon létre néhány kérdést.</p>
+                <hr>
+                <button class="btn btn-primary" id="createFirstQuestionBtn">Kérdések létrehozása</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="/js/site.js"></script>
+</body>
+</html> 
