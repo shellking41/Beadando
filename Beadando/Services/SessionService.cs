@@ -41,7 +41,7 @@ namespace Beadando.Services
 
         public async Task<Session> ValidateSessionAsync(HttpRequest request, HttpResponse response)
         {
-            var token = request.Cookies["session_token"];
+            var token = request.Cookies["SessionKey"];
             if (string.IsNullOrEmpty(token))
             {
                 throw new UnauthorizedAccessException("No session token provided");
@@ -66,11 +66,11 @@ namespace Beadando.Services
             session.ExpiresAt = DateTime.UtcNow.AddDays(SESSION_LENGTH_DAYS);
             await _context.SaveChangesAsync();
 
-            response.Cookies.Append("session_token", session.Token, new CookieOptions
+            response.Cookies.Append("SessionKey", session.Token, new CookieOptions
             {
                 HttpOnly = true,
-                Secure = true,
-                SameSite = SameSiteMode.Strict,
+                Secure = false,
+                SameSite = SameSiteMode.Lax,
                 Expires = DateTimeOffset.UtcNow.AddDays(SESSION_LENGTH_DAYS)
             });
 
@@ -118,7 +118,7 @@ namespace Beadando.Services
 
         public async Task LogoutAsync(HttpRequest request)
         {
-            var token = request.Cookies["session_token"];
+            var token = request.Cookies["SessionKey"];
             if (!string.IsNullOrEmpty(token))
             {
                 var session = await _context.Sessions.FirstOrDefaultAsync(s => s.Token == token);

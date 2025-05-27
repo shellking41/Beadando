@@ -31,14 +31,16 @@ builder.Services.AddAuthentication(options =>
     options.Cookie.SecurePolicy = CookieSecurePolicy.None; // For localhost
     options.LoginPath = "/api/Session/login";
     options.LogoutPath = "/api/Session/logout";
+    options.ExpireTimeSpan = TimeSpan.FromDays(30);
+    options.SlidingExpiration = true;
     
     options.Events = new CookieAuthenticationEvents
     {
         OnValidatePrincipal = async context =>
         {
-            var sessionService = context.HttpContext.RequestServices.GetRequiredService<SessionService>();
             try
             {
+                var sessionService = context.HttpContext.RequestServices.GetRequiredService<SessionService>();
                 await sessionService.ValidateSessionAsync(context.HttpContext.Request, context.HttpContext.Response);
             }
             catch (UnauthorizedAccessException)
@@ -48,12 +50,18 @@ builder.Services.AddAuthentication(options =>
         },
         OnRedirectToLogin = context =>
         {
-            context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            if (context.Request.Path.StartsWithSegments("/api"))
+            {
+                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            }
             return Task.CompletedTask;
         },
         OnRedirectToAccessDenied = context =>
         {
-            context.Response.StatusCode = StatusCodes.Status403Forbidden;
+            if (context.Request.Path.StartsWithSegments("/api"))
+            {
+                context.Response.StatusCode = StatusCodes.Status403Forbidden;
+            }
             return Task.CompletedTask;
         }
     };
@@ -79,6 +87,7 @@ builder.Services.AddScoped<SessionService>();
 builder.Services.AddScoped<QuizService>();
 builder.Services.AddScoped<QuestionService>();
 builder.Services.AddScoped<DataSeeder>();
+builder.Services.AddScoped<PasswordService>();
 
 var app = builder.Build();
 

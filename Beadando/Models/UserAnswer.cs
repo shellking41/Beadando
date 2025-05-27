@@ -6,10 +6,11 @@ namespace Beadando.Models
     {
         public int Id { get; set; }
         public int UserQuizResultId { get; set; }
-        public UserQuizResult UserQuizResult { get; set; }
+        public required UserQuizResult UserQuizResult { get; set; }
         public int QuestionId { get; set; }
-        public Question Question { get; set; }
+        public required Question Question { get; set; }
         public int AnswerId { get; set; }
-        public Answer Answer { get; set; }
+        public required Answer Answer { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 }

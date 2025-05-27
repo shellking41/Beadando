@@ -46,7 +46,12 @@ namespace Beadando.Services
 
         public async Task<Quiz> GetQuizByIdAsync(int id)
         {
-            return await _context.Quizzes.FindAsync(id);
+            var quiz = await _context.Quizzes.FindAsync(id);
+            if (quiz == null)
+            {
+                throw new InvalidOperationException($"Quiz with ID {id} not found");
+            }
+            return quiz;
         }
 
         public async Task<Question> AddQuestionAsync(QuestionCreateRequest request)
@@ -124,7 +129,7 @@ namespace Beadando.Services
             var quizResult = new UserQuizResult
             {
                 UserId = userId,
-                User = await _context.Users.FindAsync(userId),
+                User = await _context.Users.FindAsync(userId) ?? throw new InvalidOperationException($"User with ID {userId} not found"),
                 StartedAt = DateTime.UtcNow,
                 TotalQuestions = QUESTIONS_PER_QUIZ,
                 Score = 0

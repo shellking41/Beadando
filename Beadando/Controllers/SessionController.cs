@@ -49,7 +49,7 @@ namespace Beadando.Controllers
                     return BadRequest("A jelszó megadása kötelező");
                 }
 
-                var user = await _sessionService.RegisterUserAsync(request);
+                var user = await _sessionService.RegisterUserAsync(request.Name, request.Email, request.Password);
                 _logger.LogInformation("User registered successfully: {Email}", request.Email);
                 return Ok(new { message = "Sikeres regisztráció" });
             }
@@ -70,9 +70,9 @@ namespace Beadando.Controllers
         {
             try
             {
-                var session = await _sessionService.LoginUserAsync(request);
+                var user = await _sessionService.LoginUserAsync(request.Email, request.Password);
+                var session = await _sessionService.CreateSessionAsync(user);
 
-               
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.NameIdentifier, session.UserId.ToString()),
@@ -83,7 +83,6 @@ namespace Beadando.Controllers
                 var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var principal = new ClaimsPrincipal(identity);
 
-             
                 await HttpContext.SignInAsync(
                     CookieAuthenticationDefaults.AuthenticationScheme,
                     principal,
@@ -93,8 +92,7 @@ namespace Beadando.Controllers
                         ExpiresUtc = session.ExpiresAt
                     });
 
-             
-                Response.Cookies.Append("SessionKey", session.SessionKey, new CookieOptions
+                Response.Cookies.Append("SessionKey", session.Token, new CookieOptions
                 {
                     HttpOnly = true,
                     Secure = false, 
@@ -139,7 +137,7 @@ namespace Beadando.Controllers
         [HttpPost("logout")]
         public async Task<IActionResult> Logout()
         {
-            await _sessionService.LogoutUserAsync(Request, Response);
+            await _sessionService.LogoutAsync(Request);
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return Ok(new { message = "Sikeres kijelentkezés" });
         }

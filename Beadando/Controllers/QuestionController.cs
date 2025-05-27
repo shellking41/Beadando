@@ -60,7 +60,7 @@ namespace Beadando.Controllers
                 var count = await _questionService.GetQuestionCountAsync();
                 return Ok(new { count });
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, "Hiba történt a kérdések számának lekérdezése során.");
             }
@@ -74,7 +74,7 @@ namespace Beadando.Controllers
                 var questions = await _questionService.GetRandomQuestionsAsync(count);
                 return Ok(questions);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, "Hiba történt a véletlenszerű kérdések lekérdezése során.");
             }
@@ -90,7 +90,7 @@ namespace Beadando.Controllers
                     return NotFound();
                 return Ok();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return StatusCode(500, "Hiba történt a kérdés törlése során.");
             }
