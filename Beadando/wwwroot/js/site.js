@@ -30,11 +30,7 @@ function setupEventListeners() {
     $('#registerLink').on('click', showRegisterForm);
     $('#newQuizBtn, #startQuizLink').on('click', startNewQuiz);
     $('#viewResultsBtn, #resultsLink').on('click', showResults);
-    $('#createQuestionLink').on('click', showCreateQuestion);
     $('#submitAnswer').on('click', handleAnswerSubmission);
-    $('#createQuestionForm').on('submit', handleQuestionCreation);
-    $('#addAnswerBtn').on('click', addAnswerField);
-    $('#createFirstQuestionBtn').on('click', showCreateQuestion);
 
     $(document).on('change', '.answer-radio', function() {
         $('#submitAnswer').prop('disabled', false);
@@ -49,19 +45,19 @@ function setupQuizEventListeners() {
 }
 
 function showSection(sectionId) {
-    $('#loginForm, #registerForm, #mainContent, #createQuestionSection, #noQuestionsWarning').addClass('d-none');
+    $('#loginForm, #registerForm, #mainContent').addClass('d-none');
     $(sectionId).removeClass('d-none');
 }
 
 function updateNavigation(isAuthenticated) {
     if (isAuthenticated) {
         $('#loginNav, #registerNav').addClass('d-none');
-        $('#logoutNav, #startQuizNav, #createQuestionNav, #resultsNav').removeClass('d-none');
+        $('#logoutNav, #startQuizNav, #resultsNav').removeClass('d-none');
         $('#mainContent').removeClass('d-none');
         $('#loginForm, #registerForm').addClass('d-none');
     } else {
         $('#loginNav, #registerNav').removeClass('d-none');
-        $('#logoutNav, #startQuizNav, #createQuestionNav, #resultsNav').addClass('d-none');
+        $('#logoutNav, #startQuizNav, #resultsNav').addClass('d-none');
         $('#mainContent').addClass('d-none');
         showLoginForm();
     }
@@ -79,7 +75,7 @@ function showHome() {
     if (currentUser) {
         showSection('#mainContent');
         $('#welcomeSection').removeClass('d-none');
-        $('#quizSection, #resultsSection, #createQuestionSection').addClass('d-none');
+        $('#quizSection, #resultsSection').addClass('d-none');
         if (currentUser.name) {
             $('#userContent').text(`Bejelentkezve mint: ${currentUser.name}`);
         } else {
@@ -94,13 +90,7 @@ function showResults() {
     loadResults();
     showSection('#mainContent');
     $('#resultsSection').removeClass('d-none');
-    $('#welcomeSection, #quizSection, #createQuestionSection').addClass('d-none');
-}
-
-function showCreateQuestion() {
-    showSection('#mainContent');
-    $('#createQuestionSection').removeClass('d-none');
-    $('#welcomeSection, #quizSection, #resultsSection').addClass('d-none');
+    $('#welcomeSection, #quizSection').addClass('d-none');
 }
 
 function resetQuizState() {
@@ -356,7 +346,7 @@ async function startNewQuiz() {
                 
                 showSection('#mainContent');
                 $('#quizSection').removeClass('d-none');
-                $('#welcomeSection, #resultsSection, #createQuestionSection').addClass('d-none');
+                $('#welcomeSection, #resultsSection').addClass('d-none');
                 
                 showQuestion();
             } else {
@@ -561,78 +551,4 @@ function displayResults(results) {
         .join('');
     
     $('#resultsTableBody').html(resultsHtml || '<tr><td colspan="4" class="text-center">Nincsenek még eredmények.</td></tr>');
-}
-
-function addAnswerField() {
-    const answerCount = $('.answer-group').length;
-    if (answerCount >= 4) {
-        alert('Maximum 4 válasz lehetséges!');
-        return;
-    }
-
-    const newAnswerHtml = `
-        <div class="answer-group mb-3">
-            <div class="input-group">
-                <input type="text" class="form-control answer-text" placeholder="Válasz szövege" required>
-                <div class="input-group-text">
-                    <input type="radio" name="correctAnswer" class="correct-answer" required>
-                    <label class="ms-2 mb-0">Helyes válasz</label>
-                </div>
-            </div>
-        </div>
-    `;
-    
-    $('#answersContainer').append(newAnswerHtml);
-}
-
-async function handleQuestionCreation(event) {
-    event.preventDefault();
-
-    const questionData = {
-        text: $('#createQuestionText').val(),
-        image: $('#questionImage').val() || null,
-        answers: []
-    };
-
-    $('.answer-group').each(function(index) {
-        const answerText = $(this).find('.answer-text').val();
-        const isCorrect = $(this).find('.correct-answer').prop('checked');
-        
-        questionData.answers.push({
-            text: answerText,
-            isCorrect: isCorrect
-        });
-    });
-
-    if (questionData.answers.length < 2) {
-        alert('Legalább két válasz szükséges!');
-        return;
-    }
-
-    if (!questionData.answers.some(a => a.isCorrect)) {
-        alert('Legalább egy helyes választ meg kell jelölni!');
-        return;
-    }
-
-    try {
-        const response = await fetch('/api/Question', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(questionData),
-            credentials: 'include'
-        });
-
-        if (response.ok) {
-            alert('Kérdés sikeresen létrehozva!');
-            $('#createQuestionForm')[0].reset();
-        } else {
-            const error = await response.json();
-            alert(error.message || 'Hiba történt a kérdés létrehozása során!');
-        }
-    } catch (error) {
-        console.error('Error creating question:', error);
-        alert('Hiba történt a kérdés létrehozása során!');
-    }
 } 

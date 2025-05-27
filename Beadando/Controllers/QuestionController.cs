@@ -9,18 +9,18 @@ namespace Beadando.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class QuestionController : ControllerBase
     {
         private readonly QuestionService _questionService;
-        private readonly SessionService _sessionService;
 
-        public QuestionController(QuestionService questionService, SessionService sessionService)
+        public QuestionController(QuestionService questionService)
         {
             _questionService = questionService;
-            _sessionService = sessionService;
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IActionResult> GetAllQuestions()
         {
             try
@@ -35,6 +35,7 @@ namespace Beadando.Controllers
         }
 
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetQuestion(int id)
         {
             try
@@ -51,34 +52,17 @@ namespace Beadando.Controllers
             }
         }
 
-        [HttpPost]
-        [Authorize]
-        public async Task<IActionResult> CreateQuestion([FromBody] QuestionCreateRequest request)
-        {
-            try
-            {
-                var question = await _questionService.CreateQuestionAsync(request);
-                var response = await _questionService.GetQuestionResponseByIdAsync(question.Id);
-                return CreatedAtAction(nameof(GetQuestion), new { id = question.Id }, response);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest("Hiba történt a kérdés létrehozása során.");
-            }
-        }
-
         [HttpGet("count")]
         public async Task<IActionResult> GetQuestionCount()
         {
             try
             {
-                await _sessionService.ValidateSessionAsync(Request, Response);
                 var count = await _questionService.GetQuestionCountAsync();
                 return Ok(new { count });
             }
-            catch (UnauthorizedAccessException ex)
+            catch (Exception ex)
             {
-                return Unauthorized(ex.Message);
+                return StatusCode(500, "Hiba történt a kérdések számának lekérdezése során.");
             }
         }
 
@@ -87,13 +71,12 @@ namespace Beadando.Controllers
         {
             try
             {
-                await _sessionService.ValidateSessionAsync(Request, Response);
                 var questions = await _questionService.GetRandomQuestionsAsync(count);
                 return Ok(questions);
             }
-            catch (UnauthorizedAccessException ex)
+            catch (Exception ex)
             {
-                return Unauthorized(ex.Message);
+                return StatusCode(500, "Hiba történt a véletlenszerű kérdések lekérdezése során.");
             }
         }
 
@@ -102,15 +85,14 @@ namespace Beadando.Controllers
         {
             try
             {
-                await _sessionService.ValidateSessionAsync(Request, Response);
                 var success = await _questionService.DeleteQuestionAsync(id);
                 if (!success)
                     return NotFound();
                 return Ok();
             }
-            catch (UnauthorizedAccessException ex)
+            catch (Exception ex)
             {
-                return Unauthorized(ex.Message);
+                return StatusCode(500, "Hiba történt a kérdés törlése során.");
             }
         }
     }

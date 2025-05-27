@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Beadando.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,48 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Add authentication configuration
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+})
+.AddCookie(options =>
+{
+    options.Cookie.Name = "SessionKey";
+    options.Cookie.HttpOnly = true;
+    options.Cookie.SameSite = SameSiteMode.Lax;
+    options.Cookie.SecurePolicy = CookieSecurePolicy.None; // For localhost
+    options.LoginPath = "/api/Session/login";
+    options.LogoutPath = "/api/Session/logout";
+    
+    options.Events = new CookieAuthenticationEvents
+    {
+        OnValidatePrincipal = async context =>
+        {
+            var sessionService = context.HttpContext.RequestServices.GetRequiredService<SessionService>();
+            try
+            {
+                await sessionService.ValidateSessionAsync(context.HttpContext.Request, context.HttpContext.Response);
+            }
+            catch (UnauthorizedAccessException)
+            {
+                context.RejectPrincipal();
+            }
+        },
+        OnRedirectToLogin = context =>
+        {
+            context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return Task.CompletedTask;
+        },
+        OnRedirectToAccessDenied = context =>
+        {
+            context.Response.StatusCode = StatusCodes.Status403Forbidden;
+            return Task.CompletedTask;
+        }
+    };
+});
 
 builder.Services.AddCors(options =>
 {
@@ -90,6 +134,7 @@ app.UseStaticFiles();
 app.UseCors("AllowAll");
 
 app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 using Beadando.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Beadando.Controllers
 {
@@ -69,11 +72,33 @@ namespace Beadando.Controllers
             {
                 var session = await _sessionService.LoginUserAsync(request);
 
+                // Create claims for the user
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.NameIdentifier, session.UserId.ToString()),
+                    new Claim(ClaimTypes.Name, session.User.Name),
+                    new Claim(ClaimTypes.Email, session.User.Email)
+                };
+
+                var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var principal = new ClaimsPrincipal(identity);
+
+                // Sign in the user
+                await HttpContext.SignInAsync(
+                    CookieAuthenticationDefaults.AuthenticationScheme,
+                    principal,
+                    new AuthenticationProperties
+                    {
+                        IsPersistent = true,
+                        ExpiresUtc = session.ExpiresAt
+                    });
+
+                // Set the session cookie
                 Response.Cookies.Append("SessionKey", session.SessionKey, new CookieOptions
                 {
                     HttpOnly = true,
-                    Secure = true,
-                    SameSite = SameSiteMode.Strict,
+                    Secure = false, // Set to false for localhost
+                    SameSite = SameSiteMode.Lax,
                     Expires = session.ExpiresAt
                 });
 
@@ -115,6 +140,7 @@ namespace Beadando.Controllers
         public async Task<IActionResult> Logout()
         {
             await _sessionService.LogoutUserAsync(Request, Response);
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return Ok(new { message = "Sikeres kijelentkezés" });
         }
     }

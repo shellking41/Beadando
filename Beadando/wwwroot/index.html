@@ -24,9 +24,6 @@
                     <li class="nav-item d-none" id="startQuizNav">
                         <a class="nav-link" href="#" id="startQuizLink">Új Teszt</a>
                     </li>
-                    <li class="nav-item d-none" id="createQuestionNav">
-                        <a class="nav-link" href="#" id="createQuestionLink">Kérdés létrehozása</a>
-                    </li>
                     <li class="nav-item d-none" id="resultsNav">
                         <a class="nav-link" href="#" id="resultsLink">Eredményeim</a>
                     </li>
@@ -100,61 +97,6 @@
                         </tbody>
                     </table>
                 </div>
-            </div>
-        </div>
-
-      
-        <div id="createQuestionSection" class="d-none">
-            <h2>Új kérdés létrehozása</h2>
-            <div class="card">
-                <div class="card-body">
-                    <form id="createQuestionForm">
-                        <div class="mb-3">
-                            <label for="createQuestionText" class="form-label">Kérdés szövege</label>
-                            <textarea class="form-control" id="createQuestionText" name="text" rows="3" required></textarea>
-                        </div>
-                        <div class="mb-3">
-                            <label for="questionImage" class="form-label">Kép (opcionális)</label>
-                            <input type="text" class="form-control" id="questionImage" name="image" placeholder="Kép fájlneve (pl: kep.jpg)">
-                            <div class="form-text">A képet az /img mappába kell helyezni</div>
-                        </div>
-                        <div id="answersContainer">
-                            <h4 class="mt-4">Válaszok</h4>
-                            <div class="answer-group mb-3">
-                                <div class="input-group">
-                                    <input type="text" class="form-control answer-text" placeholder="Válasz szövege" required>
-                                    <div class="input-group-text">
-                                        <input type="radio" name="correctAnswer" class="correct-answer" required>
-                                        <label class="ms-2 mb-0">Helyes válasz</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="answer-group mb-3">
-                                <div class="input-group">
-                                    <input type="text" class="form-control answer-text" placeholder="Válasz szövege" required>
-                                    <div class="input-group-text">
-                                        <input type="radio" name="correctAnswer" class="correct-answer" required>
-                                        <label class="ms-2 mb-0">Helyes válasz</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-secondary mb-3" id="addAnswerBtn">+ Új válasz hozzáadása</button>
-                        <div class="d-grid">
-                            <button type="submit" class="btn btn-primary">Kérdés mentése</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-       
-        <div id="noQuestionsWarning" class="d-none">
-            <div class="alert alert-warning">
-                <h4 class="alert-heading">Nincsenek még kérdések!</h4>
-                <p>A teszt indításához először hozzon létre néhány kérdést.</p>
-                <hr>
-                <button class="btn btn-primary" id="createFirstQuestionBtn">Kérdések létrehozása</button>
             </div>
         </div>
     </div>

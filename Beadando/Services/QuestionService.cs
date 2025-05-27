@@ -18,53 +18,6 @@ namespace Beadando.Services
             _context = context;
         }
 
-        public async Task<Question> CreateQuestionAsync(QuestionCreateRequest request)
-        {
-            using var transaction = await _context.Database.BeginTransactionAsync();
-
-            try
-            {
-                var question = new Question
-                {
-                    Text = request.Text,
-                    Image = request.Image,
-                    CreatedAt = DateTime.UtcNow
-                };
-
-                _context.Questions.Add(question);
-                await _context.SaveChangesAsync();
-
-                if (request.Answers == null || request.Answers.Count < 2 || request.Answers.Count > 4)
-                    throw new ArgumentException("A question must have between 2 and 4 answers");
-
-                if (!request.Answers.Any(a => a.IsCorrect))
-                    throw new ArgumentException("At least one answer must be correct");
-
-                foreach (var answerRequest in request.Answers)
-                {
-                    var answer = new Answer
-                    {
-                        Text = answerRequest.Text,
-                        IsCorrect = answerRequest.IsCorrect,
-                        QuestionId = question.Id,
-                        Question = question
-                    };
-
-                    _context.Answers.Add(answer);
-                }
-
-                await _context.SaveChangesAsync();
-                await transaction.CommitAsync();
-
-                return question;
-            }
-            catch
-            {
-                await transaction.RollbackAsync();
-                throw;
-            }
-        }
-
         public async Task<Question?> GetQuestionByIdAsync(int id)
         {
             return await _context.Questions
