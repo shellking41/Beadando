@@ -8,6 +8,7 @@ using Beadando.Models;
 using Beadando.Services;
 using Microsoft.EntityFrameworkCore;
 using Beadando.Data;
+using System.Security.Claims;
 
 namespace Beadando.Controllers
 {
@@ -168,6 +169,30 @@ namespace Beadando.Controllers
                     })
                     .ToListAsync();
                 return Ok(results);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Unauthorized(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("details/{id}")]
+        public async Task<IActionResult> GetQuizDetails(int id)
+        {
+            try
+            {
+                var session = await _sessionService.ValidateSessionAsync(Request, Response);
+                var details = await _quizService.GetQuizDetailsAsync(id, session.UserId);
+                if (details == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(details);
             }
             catch (UnauthorizedAccessException ex)
             {

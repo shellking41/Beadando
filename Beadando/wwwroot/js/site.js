@@ -539,16 +539,168 @@ function displayResults(results) {
         .map(result => {
             const date = new Date(result.completedAt);
             const percentage = Math.round((result.score / result.totalQuestions) * 100);
+            
             return `
-                <tr>
+                <tr class="result-row" data-result-id="${result.id}">
                     <td>${date.toLocaleString()}</td>
                     <td>${result.score}/${result.totalQuestions}</td>
                     <td>${percentage}%</td>
                     <td>${result.passed ? 'Sikeres' : 'Sikertelen'}</td>
+                    <td>
+                        <button class="btn btn-sm btn-info show-details-btn" data-quiz-id="${result.id}">
+                            Részletek
+                        </button>
+                    </td>
+                </tr>
+                <tr class="details-row d-none" id="details-${result.id}">
+                    <td colspan="5">
+                        <div class="details-content p-3">
+                            <div class="text-center">
+                                <div class="spinner-border text-primary d-none" role="status">
+                                    <span class="visually-hidden">Betöltés...</span>
+                                </div>
+                            </div>
+                            <div class="quiz-details-content"></div>
+                        </div>
+                    </td>
                 </tr>
             `;
         })
         .join('');
     
-    $('#resultsTableBody').html(resultsHtml || '<tr><td colspan="4" class="text-center">Nincsenek még eredmények.</td></tr>');
+    $('#resultsTableBody').html(resultsHtml || '<tr><td colspan="5" class="text-center">Nincsenek még eredmények.</td></tr>');
+
+    // Add click handler for the details buttons
+    $('.show-details-btn').on('click', async function() {
+        const quizId = $(this).data('quiz-id');
+        const resultRow = $(this).closest('tr');
+        const detailsRow = $(`#details-${quizId}`);
+        const spinner = detailsRow.find('.spinner-border');
+        const detailsContent = detailsRow.find('.quiz-details-content');
+        
+        // Toggle the details row
+        detailsRow.toggleClass('d-none');
+        
+        // Update button text
+        const btnText = detailsRow.hasClass('d-none') ? 'Részletek' : 'Bezárás';
+        $(this).text(btnText);
+
+        // If showing details and content not loaded yet
+        if (!detailsRow.hasClass('d-none') && !detailsContent.data('loaded')) {
+            try {
+                spinner.removeClass('d-none');
+                const details = await loadQuizDetails(quizId);
+                displayQuizDetails(details, detailsContent);
+                detailsContent.data('loaded', true);
+            } catch (error) {
+                detailsContent.html('<div class="alert alert-danger">Hiba történt a részletek betöltése során.</div>');
+                console.error('Error loading quiz details:', error);
+            } finally {
+                spinner.addClass('d-none');
+            }
+        }
+    });
+}
+
+async function loadQuizDetails(quizId) {
+    const response = await fetch(`/api/Quiz/details/${quizId}`, {
+        method: 'GET',
+        headers: {
+            'Accept': 'application/json'
+        },
+        credentials: 'include'
+    });
+
+    if (!response.ok) {
+        throw new Error('Failed to load quiz details');
+    }
+
+    return await response.json();
+}
+
+function displayQuizDetails(details, container) {
+    const questionsHtml = details.questions.map((q, index) => {
+        // Fix image path
+        let imagePath = '';
+        if (q.questionImage) {
+            const parts = q.questionImage.split('/');
+            if (parts.length >= 2) {
+                const imageDir = parts[0]; // e.g., "bteszt3"
+                const imageName = parts[1]; // e.g., "55_11.gif"
+                
+                // Extract the base directory and number
+                const baseDir = imageDir.replace(/[0-9]+$/, ''); // "bteszt" or "ateszt"
+                const number = imageDir.match(/\d+$/)?.[0] || '1'; // "3" or default to "1"
+                
+                imagePath = `/img/${baseDir}/${baseDir}${number}/${imageName}`;
+            }
+        }
+
+        return `
+            <div class="question-details card mb-3 ${q.isCorrect ? 'border-success' : 'border-danger'}">
+                <div class="card-header ${q.isCorrect ? 'bg-success text-white' : 'bg-danger text-white'}">
+                    <strong>${index + 1}. kérdés</strong>
+                    <span class="float-end">
+                        ${q.isCorrect 
+                            ? '<i class="bi bi-check-circle-fill"></i> Helyes válasz' 
+                            : '<i class="bi bi-x-circle-fill"></i> Helytelen válasz'}
+                    </span>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">${q.questionText}</h5>
+                    ${imagePath ? `
+                        <div class="text-center mb-3">
+                            <img src="${imagePath}" 
+                                 alt="Kérdéshez tartozó kép" 
+                                 class="img-fluid rounded question-image"
+                                 style="max-height: 200px; object-fit: contain;"
+                                 onerror="this.style.display='none'">
+                        </div>
+                    ` : ''}
+                    <div class="answer-section">
+                        <p class="mb-2">
+                            <strong>Az Ön válasza:</strong> 
+                            <span class="${q.isCorrect ? 'text-success' : 'text-danger'}">
+                                ${q.userAnswerText}
+                            </span>
+                        </p>
+                        ${!q.isCorrect ? `
+                            <p class="mb-0">
+                                <strong>Helyes válasz:</strong> 
+                                <span class="text-success">${q.correctAnswerText}</span>
+                            </p>
+                        ` : ''}
+                    </div>
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    container.html(`
+        <div class="quiz-details">
+            <div class="quiz-summary card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Teszt összegzés</h5>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="mb-2"><strong>Pontszám:</strong> ${details.score}/${details.totalQuestions}</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="mb-2"><strong>Százalék:</strong> ${Math.round((details.score / details.totalQuestions) * 100)}%</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="mb-2">
+                                <strong>Eredmény:</strong> 
+                                <span class="${details.passed ? 'text-success' : 'text-danger'}">
+                                    ${details.passed ? 'Sikeres' : 'Sikertelen'}
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h5 class="mb-3">Kérdések és válaszok</h5>
+            ${questionsHtml}
+        </div>
+    `);
 } 

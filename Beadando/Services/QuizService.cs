@@ -168,6 +168,7 @@ namespace Beadando.Services
             }
 
             var correctAnswers = 0;
+            var questionResults = new List<QuizQuestionResultDto>();
 
             foreach (var answer in answers)
             {
@@ -200,6 +201,17 @@ namespace Beadando.Services
 
                 await _context.UserAnswers.AddAsync(userAnswer);
 
+                var correctAnswer = question.Answers.First(a => a.IsCorrect);
+                questionResults.Add(new QuizQuestionResultDto
+                {
+                    QuestionId = question.Id,
+                    QuestionText = question.Text,
+                    QuestionImage = question.Image,
+                    UserAnswerText = selectedAnswer.Text,
+                    IsCorrect = selectedAnswer.IsCorrect,
+                    CorrectAnswerText = correctAnswer.Text
+                });
+
                 if (selectedAnswer.IsCorrect)
                 {
                     correctAnswers++;
@@ -219,8 +231,45 @@ namespace Beadando.Services
                 Score = correctAnswers,
                 TotalQuestions = QUESTIONS_PER_QUIZ,
                 Passed = passed,
-                CompletedAt = latestQuiz.CompletedAt.Value
+                CompletedAt = latestQuiz.CompletedAt.Value,
+                Questions = questionResults
             };
+        }
+
+        public async Task<QuizDetailsDto?> GetQuizDetailsAsync(int quizId, int userId)
+        {
+            var quiz = await _context.UserQuizResults
+                .Include(q => q.UserAnswers)
+                    .ThenInclude(ua => ua.Question)
+                        .ThenInclude(q => q.Answers)
+                .Include(q => q.UserAnswers)
+                    .ThenInclude(ua => ua.Answer)
+                .FirstOrDefaultAsync(q => q.Id == quizId && q.UserId == userId);
+
+            if (quiz == null || !quiz.CompletedAt.HasValue)
+            {
+                return null;
+            }
+
+            var details = new QuizDetailsDto
+            {
+                Id = quiz.Id,
+                CompletedAt = quiz.CompletedAt.Value,
+                Score = quiz.Score,
+                TotalQuestions = quiz.TotalQuestions,
+                Passed = (double)quiz.Score / quiz.TotalQuestions >= PASS_THRESHOLD,
+                Questions = quiz.UserAnswers.Select(ua => new QuizQuestionResultDto
+                {
+                    QuestionId = ua.QuestionId,
+                    QuestionText = ua.Question.Text,
+                    QuestionImage = ua.Question.Image,
+                    UserAnswerText = ua.Answer.Text,
+                    IsCorrect = ua.Answer.IsCorrect,
+                    CorrectAnswerText = ua.Question.Answers.First(a => a.IsCorrect).Text
+                }).ToList()
+            };
+
+            return details;
         }
     }
 }
