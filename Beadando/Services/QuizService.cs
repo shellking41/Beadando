@@ -138,6 +138,7 @@ namespace Beadando.Services
             {
                 Id = q.Id,
                 Text = q.Text,
+                Image = q.Image,
                 Answers = q.Answers.Select(a => new AnswerResponse
                 {
                     Id = a.Id,

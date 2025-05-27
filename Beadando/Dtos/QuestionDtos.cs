@@ -8,7 +8,7 @@ namespace Beadando.Dtos
         [Required(ErrorMessage = "A kérdés szövege kötelező")]
         public required string Text { get; set; }
         
-        public string? ImagePath { get; set; }
+        public string? Image { get; set; }
         
         [Required(ErrorMessage = "Legalább két válasz megadása kötelező")]
         [MinLength(2, ErrorMessage = "Legalább két válasz megadása kötelező")]
@@ -27,7 +27,7 @@ namespace Beadando.Dtos
     {
         public int Id { get; set; }
         public required string Text { get; set; }
-        public string? ImagePath { get; set; }
+        public string? Image { get; set; }
         public int AnswerCount { get; set; }
     }
 
@@ -35,7 +35,7 @@ namespace Beadando.Dtos
     {
         public int Id { get; set; }
         public required string Text { get; set; }
-        public string? ImagePath { get; set; }
+        public string? Image { get; set; }
         public required List<AnswerDto> Answers { get; set; } = new();
     }
 
@@ -49,6 +49,7 @@ namespace Beadando.Dtos
     public class CreateQuestionDto
     {
         public required string Text { get; set; }
+        public string? Image { get; set; }
         public required List<CreateAnswerDto> Answers { get; set; } = new();
     }
 
@@ -61,5 +62,6 @@ namespace Beadando.Dtos
     public class UpdateQuestionDto
     {
         public required string Text { get; set; }
+        public string? Image { get; set; }
     }
 } 

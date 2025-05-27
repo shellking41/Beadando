@@ -27,6 +27,7 @@ namespace Beadando.Services
                 var question = new Question
                 {
                     Text = request.Text,
+                    Image = request.Image,
                     CreatedAt = DateTime.UtcNow
                 };
 
@@ -81,6 +82,7 @@ namespace Beadando.Services
             {
                 Id = q.Id,
                 Text = q.Text,
+                Image = q.Image,
                 Answers = q.Answers.Select(a => new AnswerResponse
                 {
                     Id = a.Id,
@@ -103,6 +105,7 @@ namespace Beadando.Services
             {
                 Id = question.Id,
                 Text = question.Text,
+                Image = question.Image,
                 Answers = question.Answers.Select(a => new AnswerResponse
                 {
                     Id = a.Id,
@@ -129,6 +132,7 @@ namespace Beadando.Services
             {
                 Id = q.Id,
                 Text = q.Text,
+                Image = q.Image,
                 Answers = q.Answers.Select(a => new AnswerResponse
                 {
                     Id = a.Id,

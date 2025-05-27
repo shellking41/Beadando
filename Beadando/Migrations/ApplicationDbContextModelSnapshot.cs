@@ -49,6 +49,9 @@ namespace Beadando.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Image")
+                        .HasColumnType("TEXT");
+
                     b.Property<int?>("QuizId")
                         .HasColumnType("INTEGER");
 

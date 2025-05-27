@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Beadando.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250524231717_InitialCreate")]
+    [Migration("20250527175725_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -52,7 +52,7 @@ namespace Beadando.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("ImagePath")
+                    b.Property<string>("Image")
                         .HasColumnType("TEXT");
 
                     b.Property<int?>("QuizId")

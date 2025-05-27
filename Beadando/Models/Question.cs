@@ -12,6 +12,8 @@ namespace Beadando.Models
         [Required]
         public required string Text { get; set; }
 
+        public string? Image { get; set; }
+
         public DateTime CreatedAt { get; set; }
 
         public virtual List<Answer> Answers { get; set; } = new();

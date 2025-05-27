@@ -45,6 +45,7 @@ namespace Beadando.Dtos
     public class QuestionCreateRequest
     {
         public required string Text { get; set; }
+        public string? Image { get; set; }
         public List<AnswerCreateRequest> Answers { get; set; } = new();
     }
 
@@ -52,6 +53,7 @@ namespace Beadando.Dtos
     {
         public int Id { get; set; }
         public required string Text { get; set; }
+        public string? Image { get; set; }
         public List<AnswerResponse> Answers { get; set; } = new();
     }
 

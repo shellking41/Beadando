@@ -109,6 +109,7 @@ namespace Beadando.Data
                     var question = new Question
                     {
                         Text = questionData.question,
+                        Image = string.IsNullOrWhiteSpace(questionData.image) ? null : questionData.image,
                         CreatedAt = DateTime.UtcNow
                     };
 

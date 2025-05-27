@@ -382,7 +382,34 @@ function showQuestion() {
     const question = currentQuiz.questions[currentQuestionIndex];
     console.log('Showing question:', question);
 
+    // Kérdés szövegének megjelenítése
     $('#questionText').text(question.text);
+    
+    // Kép megjelenítése, ha van
+    let questionContent = question.text;
+    if (question.image) {
+        const imageName = question.image.split('/').pop(); // Csak a fájlnév
+        const imageDir = question.image.split('/')[0]; // Az első mappanév (pl. bteszt4)
+        let imagePath;
+        
+        // Ha btesztX/ kezdetű
+        if (imageDir.startsWith('bteszt')) {
+            imagePath = `bteszt/${imageDir}/${imageName}`; // pl. bteszt/bteszt1/kep.gif
+        }
+        // Ha atesztX/ kezdetű
+        else if (imageDir.startsWith('ateszt')) {
+            imagePath = `ateszt/${imageDir}/${imageName}`; // pl. ateszt/ateszt1/kep.gif
+        }
+        
+        questionContent = `
+            <div class="mb-3">
+                <img src="/img/${imagePath}" alt="Kérdéshez tartozó kép" class="img-fluid rounded" 
+                     onerror="this.style.display='none'">
+            </div>
+            <div>${question.text}</div>
+        `;
+    }
+    $('#questionText').html(questionContent);
     
     const answersHtml = question.answers.map(answer => `
         <div class="list-group-item">
@@ -563,6 +590,7 @@ async function handleQuestionCreation(event) {
 
     const questionData = {
         text: $('#createQuestionText').val(),
+        image: $('#questionImage').val() || null,
         answers: []
     };
 
@@ -576,34 +604,32 @@ async function handleQuestionCreation(event) {
         });
     });
 
+    if (questionData.answers.length < 2) {
+        alert('Legalább két válasz szükséges!');
+        return;
+    }
+
+    if (!questionData.answers.some(a => a.isCorrect)) {
+        alert('Legalább egy helyes választ meg kell jelölni!');
+        return;
+    }
+
     try {
-        console.log('Sending question data:', questionData);
-        const response = await fetch('/api/Quiz/Question', {
+        const response = await fetch('/api/Question', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify(questionData),
             credentials: 'include'
         });
 
-        console.log('Response status:', response.status);
-        
         if (response.ok) {
-            const result = await response.json();
-            console.log('Success response:', result);
             alert('Kérdés sikeresen létrehozva!');
             $('#createQuestionForm')[0].reset();
-            showHome();
         } else {
-            const errorData = await response.json().catch(() => null);
-            console.error('Error response:', errorData);
-            if (errorData) {
-                alert(`Hiba történt: ${errorData.message || 'Ismeretlen hiba'}`);
-            } else {
-                alert('Hiba történt a kérdés létrehozása során!');
-            }
+            const error = await response.json();
+            alert(error.message || 'Hiba történt a kérdés létrehozása során!');
         }
     } catch (error) {
         console.error('Error creating question:', error);

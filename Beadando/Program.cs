@@ -48,8 +48,12 @@ using (var scope = app.Services.CreateScope())
         var seeder = services.GetRequiredService<DataSeeder>();
         var logger = services.GetRequiredService<ILogger<Program>>();
         
+        // Delete and recreate database
+        logger.LogInformation("Deleting existing database...");
+        await context.Database.EnsureDeletedAsync();
+        
         // Ensure database exists
-        logger.LogInformation("Ensuring database exists...");
+        logger.LogInformation("Creating new database...");
         await context.Database.EnsureCreatedAsync();
         
         // Seed data from JSON files
