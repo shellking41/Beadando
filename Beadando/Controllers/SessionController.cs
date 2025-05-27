@@ -72,7 +72,7 @@ namespace Beadando.Controllers
             {
                 var session = await _sessionService.LoginUserAsync(request);
 
-                // Create claims for the user
+               
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.NameIdentifier, session.UserId.ToString()),
@@ -83,7 +83,7 @@ namespace Beadando.Controllers
                 var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                 var principal = new ClaimsPrincipal(identity);
 
-                // Sign in the user
+             
                 await HttpContext.SignInAsync(
                     CookieAuthenticationDefaults.AuthenticationScheme,
                     principal,
@@ -93,11 +93,11 @@ namespace Beadando.Controllers
                         ExpiresUtc = session.ExpiresAt
                     });
 
-                // Set the session cookie
+             
                 Response.Cookies.Append("SessionKey", session.SessionKey, new CookieOptions
                 {
                     HttpOnly = true,
-                    Secure = false, // Set to false for localhost
+                    Secure = false, 
                     SameSite = SameSiteMode.Lax,
                     Expires = session.ExpiresAt
                 });
