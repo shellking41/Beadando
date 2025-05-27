@@ -1,0 +1,3804 @@
+[
+    {
+        "question": "Milyen járművet vezethet az alábbiak közül \"B\" kategória érvényesített vezetői engedélyével?",
+        "image": "",
+        "answers": [
+            "Legfeljebb 12 személyes mikrobuszt.",
+            "Kerti traktort.",
+            "Legfeljebb 150 cm3-es kismotorkerékpárt."
+        ]
+    },
+    {
+        "question": "Milyen gyakran kell a kormányberendezést, a fékberendezést, a gumiabroncsokat, valamint a kötelezően előírt világító- és fényjelző berendezéseket ellenőrizni?",
+        "image": "",
+        "answers": [
+            "Legalább a napi első elindulás előtt.",
+            "Minden elindulás előtt.",
+            "Két-háromnaponta."
+        ]
+    },
+    {
+        "question": "Lakott területen belül közlekedik személygépkocsijával. Be kell-e csatolniuk magukat biztonsági övvel a hátsó ülésen helyet foglaló felnőtt utasainak?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Behajthat-e jelzőlámpa tilos fényjelzése ellenére az útkereszteződésbe, ha a megkülönböztető jelzéseit használó gépjármű továbbhaladását csak így tudja biztosítani?",
+        "image": "",
+        "answers": [
+            "Igen, de csak kellő körültekintéssel, mások veszélyeztetése nélkül.",
+            "Igen, de csak akkor, ha a forgalom irányítására jogosult személy, utasítást ad erre.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mi minősül a közlekedési partner veszélyeztetésének?",
+        "image": "",
+        "answers": [
+            "Ha valaki a közlekedés más résztvevőjét korábbi nyugodt haladási üteméből kizökkenti, fékezésre vagy irányváltoztatásra kényszeríti.",
+            "Ha valaki a közlekedés más résztvevőjét olyan helyzetbe hozza, amely baleset vagy kár bekövetkezésének a lehetőségével jár.",
+            "Ha valaki a közlekedés más résztvevőjét a továbbjutásban gátolja."
+        ]
+    },
+    {
+        "question": "Mikor hagyhatja figyelmen kívül a közúti jelzések utasítását vagy tilalmát?",
+        "image": "",
+        "answers": [
+            "Ha a jelzés - véleménye szerint - ellentmond a közúti közlekedés logikájának.",
+            "Ha ez a forgalom biztonságát és zavartalanságát nem sérti.",
+            "Ha a rendőr erre utasítást ad."
+        ]
+    },
+    {
+        "question": "Személygépkocsiból és pótkocsiból álló járműszerelvénnyel autópályán közlekedik. Mekkora a megengedett legnagyobb sebessége?",
+        "image": "",
+        "answers": [
+            "120 km/h.",
+            "100 km/h.",
+            "80 km/h."
+        ]
+    },
+    {
+        "question": "Mi teszi lehetővé a teljes környezet megfigyelését?",
+        "image": "",
+        "answers": [
+            "Tekintetünk (figyelmünk) vándorlása.",
+            "A látótér.",
+            "A látás és a visszapillantótükrök."
+        ]
+    },
+    {
+        "question": "Miként változik a gépkocsi tengelyeinek terhelése fékezéskor?",
+        "image": "",
+        "answers": [
+            "Az első és hátsó tengely terhelése egyaránt növekszik.",
+            "Az első tengely terhelése csökken, a hátsó tengely terhelése növekszik.",
+            "Az első tengely terhelése növekszik, a hátsó tengely terhelése csökken."
+        ]
+    },
+    {
+        "question": "Mikor szabad hirtelen fékezni?",
+        "image": "",
+        "answers": [
+            "Csak akkor, ha ezt a személy- és vagyonbiztonság megóvása szükségessé teszi.",
+            "Csak akkor, ha az Ön mögött haladó jármű helyes követési távolságot tart."
+        ]
+    },
+    {
+        "question": "A táblával jelölt úton kell-e számítania az úttesten közlekedő kerékpárosra?",
+        "image": "bteszt1/53_11.gif",
+        "answers": [
+            "Igen",
+            "Nem"
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt1/53_12.gif",
+        "answers": [
+            "Az útszűkületben a korábbi forgalmi rendtől eltérően egyirányú forgalom van.",
+            "Az útszűkületben ebből az irányból tilos behajtani.",
+            "Az útszűkületben elsőbbséget kell adni a szembe jövő jármű részére."
+        ]
+    },
+    {
+        "question": "Előzhet-e a táblával jelzett útkereszteződésben?",
+        "image": "bteszt1/53_13.gif",
+        "answers": [
+            "Igen.",
+            "Csak akkor, ha az előzés nem jár az úttest menetirány szerinti bal oldalának igénybevételével.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt1/53_14.gif",
+        "answers": [
+            "A lakó-pihenő övezet végét.",
+            "A korlátozott sebességű övezet végét.",
+            "A korlátozott várakozási övezet végét."
+        ]
+    },
+    {
+        "question": "Merről kell kikerülnie az ilyen táblát, illetőleg azt az akadályt vagy egyéb tárgyat, amelyen a tárgyat elhelyezték?",
+        "image": "bteszt1/53_15.gif",
+        "answers": [
+            "Csak jobbról.",
+            "Csak balról.",
+            "Jobbról vagy balról is elhaladhat mellette."
+        ]
+    },
+    {
+        "question": "Mit jelezhet ez a tábla?",
+        "image": "bteszt1/53_16.gif",
+        "answers": [
+            "Az úton fénysorompóval biztosított olyan vasúti átjáró van, ahol teljes vagy félsorompó felszerelve nincs.",
+            "Az úton fél- és fénysorompóval biztosított vasúti átjáró van.",
+            "Az úton jelzőőrrel biztosított vasúti átjáró van."
+        ]
+    },
+    {
+        "question": "Személygépkocsival behajthat-e a táblával megjelölt útra?",
+        "image": "bteszt1/53_17.gif",
+        "answers": [
+            "Igen.",
+            "Csak célforgalomban.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Haladhat-e folyamatosan az ilyen útburkolati jelen?",
+        "image": "bteszt1/53_18.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Személygépkocsiját a tábla jelzésének megfelelően helyezi el. Mekkora területet foglalhat el a járdából?",
+        "image": "bteszt1/53_19.gif",
+        "answers": [
+            "Az igénybe vehető terület nagyságát, csak a gépkocsi nyomtávja határozza meg.",
+            "Akkorát, hogy a gyalogosoknak maradjon meg legalább a járda egynegyed része.",
+            "A járda szélességének legfeljebb a felét úgy, hogy a gyalogosok közlekedésére legalább 1,5 méter szabadon maradjon."
+        ]
+    },
+    {
+        "question": "Behajthat-e az útkereszteződésbe, ha azt -forgalmi torlódás miatt- e fényjelzés időtartama alatt előreláthatólag elhagyni nem lehet?",
+        "image": "bteszt1/53_20.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Ennél a forgalomirányító jelzésnél hogyan kell balra bekanyarodni?",
+        "image": "bteszt1/53_21.gif",
+        "answers": [
+            "A rendőrt megkerülve.",
+            "A rendőr előtt elhaladva.",
+            "Tetszés szerint a rendőr előtt vagy mögött elhaladva."
+        ]
+    },
+    {
+        "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+        "image": "bteszt1/53_22.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ön a tanulókocsit vezeti. Ráhajthat-e az úttest szélén lévő fehér vonallal megjelölt területre?",
+        "image": "bteszt1/53_23.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Az ábrázolt útkereszteződésben melyik jármű folytathatja az útját egyenesen?",
+        "image": "bteszt1/53_24.gif",
+        "answers": [
+            "Az 1-es jelű gépkocsi.",
+            "Csak a 2-es jelű gépkocsi.",
+            "Csak a 2-es és a 3-as jelű gépkocsi."
+        ]
+    },
+    {
+        "question": "A tanulókocsit Ön vezeti. Kiszállhat-e utasa az úttest felőli oldalon?",
+        "image": "bteszt1/53_25.gif",
+        "answers": [
+            "Igen, ha meggyőződött annak veszélytelenségéről.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mikor haladhat át a kormánykerékkel ábrázolt gépkocsijával az útkereszteződésen?",
+        "image": "bteszt1/53_26.gif",
+        "answers": [
+            "A villamos és az \"A\" jelű gépkocsi után.",
+            "A villamos és az \"A\" jelű gépkocsi előtt.",
+            "A villamos után, az \"A\" jelű gépkocsi előtt."
+        ]
+    },
+    {
+        "question": "Ebben a forgalmi helyzetben van-e a tanulókocsinak elsőbbségadási kötelezettsége, ha jobbra kíván bekanyarodni?",
+        "image": "bteszt1/53_27.gif",
+        "answers": [
+            "Igen, az \"A\" jelű kerékpár részére.",
+            "Nincs."
+        ]
+    },
+    {
+        "question": "Kell-e elsőbbséget adnia ebben a forgalmi helyzetben a kormánykerékkel ábrázolt gépkocsijával?",
+        "image": "bteszt1/53_28.gif",
+        "answers": [
+            "Igen, az \"A\" jelű gépkocsi részére.",
+            "Igen, a \"B\" jelű gépkocsi részére.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mely jármű haladhat tovább elsőként?",
+        "image": "bteszt1/53_29.gif",
+        "answers": [
+            "Az \"A\" jelű gépkocsi.",
+            "A \"B\" jelű gépkocsi.",
+            "Az Ön kormánykerékkel ábrázolt gépkocsija."
+        ]
+    },
+    {
+        "question": "Hányadikként haladhat át az útkereszteződésben a kormánykerékkel ábrázolt gépkocsijával?",
+        "image": "bteszt1/53_30.gif",
+        "answers": [
+            "Elsőként.",
+            "Másodikként.",
+            "Utolsóként."
+        ]
+    },
+    {
+        "question": "Mikor térhet vissza a menetirány szerinti jobb oldalra az előzést végrehajtó gépkocsi?",
+        "image": "",
+        "answers": [
+            "Ha a két jármű között kb. 1-2 kocsihossznyi a távolság.",
+            "Ha a távolság a két jármű között már akkora, hogy az előzést befejező jármű mögött a megelőzött jármű biztonságos követési távot tud tartani.",
+            "Ha a távolság a két jármű között a megelőzött jármű féktávolságának megfelelő."
+        ]
+    },
+    {
+        "question": "Hogyan kell meggyőződni a mögöttes forgalomról az előzés megkezdése előtt?",
+        "image": "",
+        "answers": [
+            "A belső visszapillantó tükörből és hátranézve.",
+            "A belső és külső visszapillantó tükörből, és ha szükséges hátrapillantva is.",
+            "Csak a belső visszapillantó tükörből."
+        ]
+    },
+    {
+        "question": "Szabad-e előzni a bukkanóban?",
+        "image": "",
+        "answers": [
+            "Igen, de csak az egy nyomon haladó járművet.",
+            "Nem.",
+            "Igen, ha az úttesten egyirányú forgalom van, vagy záróvonal van felfestve, és az előzés nem jár annak érintésével."
+        ]
+    },
+    {
+        "question": "Mi a teendője, ha olyan megállóhelyhez érkezik, ahol a megálló villamosra az utasok fel- és leszállása az úttestről, illetőleg az úttestre történik?",
+        "image": "",
+        "answers": [
+            "Megáll a villamos végének vonalában, és útját majd csak a villamos elindulása után folytatja.",
+            "Mérsékelt sebességgel és fokozott figyelemmel halad tovább, mert egy figyelmetlen utas a villamosról vagy a járdáról a gépkocsi elé léphet.",
+            "Balról, az ellentétes irányú villamospályán kerüli a villamost, hogy ne zavarja az utasforgalmat."
+        ]
+    },
+    {
+        "question": "Figyelembe kell-e venni párhuzamos közlekedés szempontjából a kerékpársávot?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mitől függ leginkább, hogy milyen következménnyel jár egy esetleges ütközés?",
+        "image": "",
+        "answers": [
+            "Csak az ütköző gépkocsi sebességétől.",
+            "Attól, hogy mekkora sebességről milyen hosszú távon lassul le a gépkocsi.",
+            "Csak attól, hogy minek ütközik neki a gépkocsi."
+        ]
+    },
+    {
+        "question": "Ráhajthat-e a vasúti átjáróra, ha a teljes sorompó rúdjai mozgásban vannak?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Balra kíván bekanyarodni. Általában hova kell besorolnia egyirányú forgalmú úton?",
+        "image": "",
+        "answers": [
+            "Az úttest felezővonala mellé.",
+            "A bal oldali járda mellé."
+        ]
+    },
+    {
+        "question": "Két várakozó gépkocsi közé kíván hátramenetben beállni. Kényszerítheti-e a gyalogost megállásra vagy visszalépésre, ha ő az Ön járműve mögött lépett az úttestre?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Befolyásolja-e a motor tüzelőanyag-fogyasztását a gépjármű műszaki állapota?",
+        "image": "",
+        "answers": [
+            "Nem, csak a menetbiztonságot.",
+            "Igen, nagymértékben."
+        ]
+    },
+    {
+        "question": "Személygépkocsival egy autópálya külső forgalmi sávjában közlekedik. Belekezdhet-e az Ön előtt haladó összefüggő gépkocsioszlop előzésébe, ha a szabályos visszatérés helyét még nem látja?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Köteles-e gondoskodni arról, hogy őrizetlenül hagyott járműve önmagától el ne indulhasson?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem köteles, de célszerű."
+        ]
+    },
+    {
+        "question": "Felállhat-e gépkocsijával a járdára, ha azt közúti jelzés kifejezetten megengedi, de a gyalogosok részére csak 1,5 méter széles helyet tud szabadon hagyni?",
+        "image": "",
+        "answers": [
+            "Igen, ha ez a hely nem kevesebb, mint a járda szélességének a fele.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Éjszaka mivel kell kivilágítani a forgalomban résztvevő gépjárművet?",
+        "image": "",
+        "answers": [
+            "Helyzetjelző lámpákkal és tompított fényszórókkal.",
+            "Kellően kivilágított úttesten csak a helyzetjelző lámpákkal.",
+            "Távolsági fényszórókkal."
+        ]
+    },
+    {
+        "question": "Mi a károkozó járművezető kötelessége, ha a személyi sérülés nélküli baleset folytán megrongálódott jármű a helyszínen nincs jelen?",
+        "image": "",
+        "answers": [
+            "Haladéktalanul rendőri intézkedést kell kérni.",
+            "Személyi adatait a helyszínen hátrahagyva az esetet a rendőrségnek kell bejelenteni.",
+            "Személyi adatait és a biztosítója nevét a helyszínen hátrahagyva, az esetet a biztosítónak kell bejelentenie."
+        ]
+    },
+    {
+        "question": "Járhat-e veszéllyel, ha éjjel jól megvilágított útról egy rosszul megvilágított utcába hajt be gépkocsijával?",
+        "image": "",
+        "answers": [
+            "Nem, mert a szeme gyorsan alkalmazkodik a rosszabb világításhoz.",
+            "Nem, ha a gépkocsi világítása megfelelő.",
+            "Igen, mert a szeme csak fokozatosan alkalmazkodik a rosszabb világításhoz."
+        ]
+    },
+    {
+        "question": "Szállítható-e utas a személygépkocsihoz kapcsolt lakókocsiban?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Hogyan álljanak a kormányzott kerekek, ha az ábrázolt helyzetben balra kanyarodás előtt meg kell állni?",
+        "image": "bteszt1/53_48.gif",
+        "answers": [
+            "Balra fordítva, hogy a szembejövő gépkocsi elhaladása után minél előbb megkezdhesse a kanyarodást.",
+            "Egyenesen, hogy egy esetleges hátulról történő ütközés esetén ne menjen át a menetirány szerinti baloldalra."
+        ]
+    },
+    {
+        "question": "Szabad-e vontatni olyan gépkocsit, amelynek a kormányszerkezete romlott el?",
+        "image": "",
+        "answers": [
+            "Nem.",
+            "Igen, de csak vonórúddal.",
+            "Igen, de csak emelve."
+        ]
+    },
+    {
+        "question": "Átkelhet-e gyalogosként a híd úttestjén?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Milyen izzókból kell legalább egy-egy darabot készenlétben tartani a gépkocsiban?",
+        "image": "",
+        "answers": [
+            "Csak az első és hátsó helyzetjelző lámpában használt izzóból.",
+            "Csak az első és hátsó helyzetjelző lámpában és a tompított fényszóróban használt izzóból.",
+            "A tompított fényszóróban, az első és hátsó helyzetjelző, a fék- és irányjelző lámpában használt izzóból."
+        ]
+    },
+    {
+        "question": "Üzemeltethető-e tovább a szivattyús olajozású motor, ha az olajnyomás valamilyen hiba miatt megszűnt?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ha a lengéscsillapítók hibásak, akkor...",
+        "image": "",
+        "answers": [
+            "a kerekek és az úttest kapcsolata rossz, csökken a menetbiztonság.",
+            "nagymértékben megnő az erőátviteli berendezések igénybevétele.",
+            "nagymértékben megnő a fékberendezések igénybevétele."
+        ]
+    },
+    {
+        "question": "Hogyan ismerhető fel menet közben, hogy a hidraulikus kormányszervó nem működik?",
+        "image": "",
+        "answers": [
+            "A műszerfalon lévő ellenőrző lámpa, villogó vörös fénnyel jelez.",
+            "A műszerfalon lévő nyomásmérő olajnyomást nem mutat.",
+            "A gépkocsi kormányzásához a megszokottnál jóval nagyobb erőkifejtés szükséges."
+        ]
+    },
+    {
+        "question": "Kell-e a fékhatást ellenőrizni alvázmosás után?",
+        "image": "",
+        "answers": [
+            "Nem, mert a kerékfékszerkezetekbe jutó víz nem csökkenti a fékhatást.",
+            "Nem, mert a fékszerkezetekbe víz nem juthat.",
+            "Igen, mert a kerékfékszerkezetekbe víz juthat, ami csökkenti a fékhatást. "
+        ]
+    },
+    {
+        "question": "Lakógépkocsijával részt vehet-e úgy a forgalomban, hogy kerékpárját a jármű hátsó részéhez rögzíti?",
+        "image": "",
+        "answers": [
+            "Igen, ha a kerékpár elhelyezése és megjelölése megfelel a teherszállításra vonatkozó előírásoknak.",
+            "Nem, a kerékpárt legfeljebb a tetőcsomagtartón helyezheti el, az erre alkalmas rögzítőberendezés segítségével."
+        ]
+    },
+    {
+        "question": "Milyen járművet vezethet az alábbiak közül \"B\" kategóriára érvényesített vezetői engedélyével?",
+        "image": "",
+        "answers": [
+            "Trolibuszt.",
+            "Segédmotoros kerékpárt.",
+            "Motoros triciklit."
+        ]
+    },
+    {
+        "question": "Milyen cipőben biztonságos a gépjármű vezetése?",
+        "image": "",
+        "answers": [
+            "Magas sarkú cipőben.",
+            "Vékony talpú, lapos sarkú cipőben.",
+            "Vastag talpú cipőben, fapapucsban."
+        ]
+    },
+    {
+        "question": "Hogyan teljesíti elsőbbségadási kötelezettségét másik jármű részére nagyforgalmú úton?",
+        "image": "",
+        "answers": [
+            "Úgy, hogy semmiképpen se kényszerítse partnerét haladási irányának vagy sebességének bármilyen megváltozatására.",
+            "Úgy, hogy semmiképpen se kényszerítse partnerét haladási irányának vagy sebességének hirtelen megváltozatására.",
+            "Úgy, hogy semmiképpen se kényszerítse partnerét haladási irányának vagy sebességének nagyobb mértékű megváltozatására."
+        ]
+    },
+    {
+        "question": "Helyes-e dohányozni gépkocsivezetés közben?",
+        "image": "",
+        "answers": [
+            "Annak, aki rendszeresen dohányzik, igen, mert megnyugtatja, és így a közlekedés kevésbé idegesíti.",
+            "Nem, mert egészségkárosító hatása mellett a lehulló hamu vagy parázs olyan mértékben elvonhatja a figyelmét az útról, hogy közvetlen baleseti forrássá válhat."
+        ]
+    },
+    {
+        "question": "Hol adhat hangjelzést balesetveszély esetén?",
+        "image": "",
+        "answers": [
+            "Csak lakott területen kívül.",
+            "Csak lakott területen.",
+            "Lakott területen belül és kívül egyaránt."
+        ]
+    },
+    {
+        "question": "Járműve sebességét úgy kell megválasztania, hogy...",
+        "image": "",
+        "answers": [
+            "bármilyen akadály előtt meg tudjon állni.",
+            "minden olyan akadály előtt meg tudjon állni, melyre az adott körülmények között számítania kell."
+        ]
+    },
+    {
+        "question": "Mekkora a megengedett legnagyobb sebessége a személygépkocsinak az autópályán?",
+        "image": "",
+        "answers": [
+            "100 km/h.",
+            "120 km/h.",
+            "130 km/h."
+        ]
+    },
+    {
+        "question": "Irányítható-e a gépkocsi, ha fékezéskor csak a hátsó kerekek csúsznak meg?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Az alábbiak közül melyik burkolatú úttesten legrosszabb a gumiabroncsok tapadása esőzés alatt?",
+        "image": "",
+        "answers": [
+            "A kockakő burkolatún.",
+            "A betonburkolatún.",
+            "Az aszfaltburkolatún."
+        ]
+    },
+    {
+        "question": "Elsőbbsége van-e a táblával jelölt úton haladóknak a betorkolló útról érkező járművel szemben?",
+        "image": "bteszt2/54_11.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt2/54_12.gif",
+        "answers": [
+            "A megfordulási tilalom végét.",
+            "Az úton megfordulni tilos.",
+            "Az úton balra bekanyarodni és megfordulni tilos."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt2/54_13.gif",
+        "answers": [
+            "Azt, hogy az övezetben a járművek csak a táblán megjelölt ideig tartózkodhatnak.",
+            "Olyan övezetet, ahol legalább a táblán megjelölt sebességgel kell haladni.",
+            "Azt, hogy a \"Korlátozott sebességű övezet vége\" tábláig a táblán megjelöltnél nagyobb sebességgel haladni tilos."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt2/54_14.gif",
+        "answers": [
+            "Az úton előbb lejtő, azután jelentősebb emelkedő van.",
+            "Az úton egymás után két vagy több veszélyes útkanyarulat van.",
+            "Az úttest erősen csúszóssá válhat."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt2/54_15.gif",
+        "answers": [
+            "A leálló sáv végét.",
+            "A kapaszkodósáv végét.",
+            "Várakozóhelyről vagy üzemanyagtöltő állomásról betorkolló utat."
+        ]
+    },
+    {
+        "question": "Autópályán ezt a közúti jelzést látja. Mire kell számítania?",
+        "image": "bteszt2/54_16.gif",
+        "answers": [
+            "A pálya építésére és fenntartására, illetve közbiztonsági feladat ellátására szolgáló járművek a leállósávon a forgalommal szemben haladnak.",
+            "A pálya egyik oldalát útjavítás vagy egyéb okok miatt lezárták, és a járműveket onnan az ellenkező irányú forgalom lebonyolítására szolgáló úttestre terelték.",
+            "Az útra érvényes tilalmakat figyelmen kívül lehet hagyni, mert külön jelzés nélkül ért véget az autópálya."
+        ]
+    },
+    {
+        "question": "Szabálytalan elhelyezése miatt elszállíthatják-e azt a gépkocsit, amely a táblával jelölt úttest jobb szélén várakozik?",
+        "image": "bteszt2/54_17.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt2/54_18.gif",
+        "answers": [
+            "Az úttestre került sarat, szennyeződést -amely baleseti veszélyt jelent- az azt észlelő személynek el kell távolítania.",
+            "Az útszakasz útjavítási, karbantartási munkák miatt le van zárva.",
+            "Az úttesten vagy annak közvetlen közelében útjavítási, karbantartási vagy egyéb hasonló munkálat folyik."
+        ]
+    },
+    {
+        "question": "A táblával megjelölt úton közlekedik. Igénybe veheti-e gépjárművével folyamatos haladás céljára a külső (jobb szélső) sávot?",
+        "image": "bteszt2/54_19.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Megállhat-e az útburkolati jellel megjelölt területen?",
+        "image": "bteszt2/54_20.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ön a tanulókocsit vezeti. Előzéshez igénybeveheti-e az út menetirány szerinti bal oldalát?",
+        "image": "bteszt2/54_21.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Ha a jelzőtábla nem tiltja bekanyarodhat-e balra ennél a jelzésnél?",
+        "image": "bteszt2/54_22.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Számítania kell-e a járdaszigetről lelépő gyalogosokra a tanulókocsi vezetőjének?",
+        "image": "bteszt2/54_23.gif",
+        "answers": [
+            "Igen, és elsőbbségük van a járművekkel szemben.",
+            "Nem.",
+            "Igen, ezért itt fokozott figyelemmel kell elhaladni."
+        ]
+    },
+    {
+        "question": "Az ábrázolt gépkocsit Ön vezeti. Köteles-e elsőbbséget adni a zárt pályáról érkező villamosok részére?",
+        "image": "bteszt2/54_24.gif",
+        "answers": [
+            "Igen, de csak az azonos irányból érkező részére.",
+            "Igen, de csak az ellenkező irányból érkező részére.",
+            "Igen, mindkét irányból érkező részére."
+        ]
+    },
+    {
+        "question": "Szabályosan tartózkodik-e egy helyben az ábrán látható személygépkocsi?",
+        "image": "bteszt2/54_25.gif",
+        "answers": [
+            "Igen, de csak 07-17 óráig.",
+            "Igen, de csak 17-07 óráig.",
+            "Igen, időponttól függetlenül, ha a rakodás folyamatos."
+        ]
+    },
+    {
+        "question": "Melyik jármű részére kell elsőbbséget adnia ebben a forgalmi helyzetben a kormánykerékkel ábrázolt gépkocsijával?",
+        "image": "bteszt2/54_26.gif",
+        "answers": [
+            "Csak az \"A\" jelű jármű részére.",
+            "Csak az \"B\" jelű jármű részére.",
+            "Az \"A\" jelű és \"B\" jelű jármű részére egyaránt."
+        ]
+    },
+    {
+        "question": "Mikor haladhat át a kormánykerékkel ábrázolt gépkocsijával az ábrázolt útkereszteződésen?",
+        "image": "bteszt2/54_27.gif",
+        "answers": [
+            "Az \"A\" jelű gépkocsi után, a \"B\" jelű jármű előtt.",
+            "Az \"A\" és a \"B\" jelű járművek után.",
+            "Az \"A\" és a \"B\" jelű járművek előtt."
+        ]
+    },
+    {
+        "question": "Hányadikként haladhat át az útkereszteződésben a kormánykerékkel ábrázolt gépkocsijával?",
+        "image": "bteszt2/54_28.gif",
+        "answers": [
+            "Elsőként.",
+            "Másodikként.",
+            "Utolsóként."
+        ]
+    },
+    {
+        "question": "Ön a tanulókocsival balra kíván bekanyarodni. Melyik jármű haladhat tovább elsőként?",
+        "image": "bteszt2/54_29.gif",
+        "answers": [
+            "Az \"A\" jelű személygépkocsi.",
+            "Az Ön tanulógépkocsija."
+        ]
+    },
+    {
+        "question": "Kell-e elsőbbséget adnia a kormánykerékkel ábrázolt gépkocsijával?",
+        "image": "bteszt2/54_30.gif",
+        "answers": [
+            "Igen, de csak az \"A\" jelű villamos részére.",
+            "Igen, az \"A\" és a \"B\" jelű járművek részére egyaránt.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Átlépheti-e előzés céljából a párhuzamos közlekedésre alkalmas úttest felezővonalát?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Belekezdhet-e előzésbe, ha az Ön előtt ugyanabban a forgalmi sávban haladó másik jármű, előzési szándékot jelzett?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Merről előzheti meg az úttest közepén lévő, vágányokon haladó villamost?",
+        "image": "",
+        "answers": [
+            "Csak jobbról.",
+            "Jobbról és balról egyaránt."
+        ]
+    },
+    {
+        "question": "Miért jelent az idős emberek számára nagyobb veszélyt a forgalom, mint a fiatalok számára?",
+        "image": "",
+        "answers": [
+            "Mert általában gyengébben látnak, nehezebben mozognak, lassabban reagálnak, és nem tudják helyesen megbecsülni a járművek sebességét.",
+            "Mert nem ismerik a közlekedési szabályokat.",
+            "Mert kevésbé fegyelmezettek és nem tartják be a közlekedési szabályokat."
+        ]
+    },
+    {
+        "question": "Olyan párhuzamos közlekedésre alkalmas úttesten közlekedik, ahol a forgalmi sávokat elválasztó útburkolati jelek nem láthatók. Hol közlekedhet folyamatosan, ha az úton jelentéktelen a járműforgalom?",
+        "image": "",
+        "answers": [
+            "A jobb szélső forgalmi sávban.",
+            "Lakott területen bármelyik, lakott területen kívül a jobb szélső forgalmi sávban.",
+            "Bármelyik forgalmi sávban."
+        ]
+    },
+    {
+        "question": "Ráhajthat-e a vasúti átjáróra, ha a félsorompó nyitott állapotban van, de a fénysorompó villogó piros fényjelzést ad?",
+        "image": "",
+        "answers": [
+            "Kellő körültekintés mellett igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Főútvonalon halad. Elsőbbséget kell-e adnia az alárendelt úton érkező, borostyánsárga villogó figyelmeztető jelzést használó gépjármű részére?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Hogyan közelíti meg a gyalogos-átkelőhelyet, ha azon gyalogosok haladnak át?",
+        "image": "",
+        "answers": [
+            "Közvetlenül a gyalogos-átkelőhely előtt erőteljesen lassít, hogy a gyalogosok áthaladhassanak.",
+            "Már jó előre csökkenti a jármű sebességét, hogy a gyalogosok észrevegyék megállási szándékát.",
+            "Erőteljesen lassít, majd lassan áthalad a gyalogosok között."
+        ]
+    },
+    {
+        "question": "Általában milyen veszélyekkel kell számolni országúton, bukkanóknál?",
+        "image": "",
+        "answers": [
+            "A bukkanó után az úttest állapota mindig rosszabb.",
+            "A bukkanó után útkanyarulat van.",
+            "A be nem látott útszakaszon váratlan akadály lehet."
+        ]
+    },
+    {
+        "question": "A tüzelőanyag-takarékos üzemeltetés érdekében hogyan kell a gépkocsit gyorsítani?",
+        "image": "",
+        "answers": [
+            "Minden sebességfokozatban intenzíven növekvő gázadással, a legnagyobb fordulatszám 2/3-ának eléréséig kell gyorsítani.",
+            "A teljes gáz 50-60%-ának megfelelő gázadással, a legnagyobb fordulatszám kb. 1/2-ének eléréséig kell gyorsítani.",
+            "Teljes gázadással a legnagyobb fordulatszám kb. 2/3-ának eléréséig kell gyorsítani."
+        ]
+    },
+    {
+        "question": "Melyik a helyes kormányfogás az ábrán látható változatok közül?",
+        "image": "bteszt2/54_41.gif",
+        "answers": [
+            "Az 1-es jelű.",
+            "Az 2-es jelű.",
+            "Az 3-es jelű."
+        ]
+    },
+    {
+        "question": "Szabad e megállni a villamos-megállóhelynél lévő járdasziget és a hozzá közelebb eső járda között?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Megállhat-e járművével olyan helyen, ahol járműve és az úttest másik szélén álló jármű között legfeljebb 2,5 m széles hely marad?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Nem kell az úttesten álló járművet éjszaka kivilágítani, ha...",
+        "image": "",
+        "answers": [
+            "az úton az előzés tilos.",
+            "az úton közvilágítás van.",
+            "a \"Mindkét irányból behajtani tilos - kivéve engedéllyel\" jelzőtáblával megjelölt úttesten áll."
+        ]
+    },
+    {
+        "question": "A perifériás látómezőt érő fény vagy az éles látás mezejét érő fény vakít-e kevésbé?",
+        "image": "",
+        "answers": [
+            "A perifériás látómezőt érő fény.",
+            "Az éles látás mezejét érő fény.",
+            "Egyformán vakít."
+        ]
+    },
+    {
+        "question": "Szabad-e éjszaka tompított fényszóró bekapcsolása nélkül, csak helyzetjelző lámpákkal közlekedni?",
+        "image": "",
+        "answers": [
+            "Igen, de csak lakott területen belül, a kellően világított úttesten.",
+            "Igen, de csak szürkület kezdetén.",
+            "Nem, sohasem."
+        ]
+    },
+    {
+        "question": "Kell-e működtetni a vontatott gépkocsi féklámpáját és irányjelző berendezését?",
+        "image": "",
+        "answers": [
+            "Nem.",
+            "Igen, minden esetben.",
+            "Igen, kivéve az emelve vontatást."
+        ]
+    },
+    {
+        "question": "Szabálysértést követ-e el, ha a gépkocsija hamutartójából az úttestre borítja a cigarettacsikkeket?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Kiléphet-e az úttestre gyalogosként a szabad kilátást gátló akadály mögül?",
+        "image": "",
+        "answers": [
+            "Csak ott, ahol a járművekkel szemben elsőbbsége van és meggyőződött az áthaladás veszélytelenségéről.",
+            "Kellő körültekintéssel és óvatossággal bárhol.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Általában mivel kell számolnia a vezetőnek országúton, kanyarodás közben, ha a személygépkocsi farnehéz?",
+        "image": "",
+        "answers": [
+            "A hátsó kerekek nagyobb mérvű kúszása miatt a gépkocsi a kanyar belső oldala felé kormányozódik.",
+            "A hátsó kerekek nagyobb mérvű kúszása miatt a gépkocsi a kanyar külső oldala felé kormányozódik.",
+            "Az első kerekek nagyobb mérvű kúszása miatt a gépkocsi a kanyar belső oldala felé kormányozódik."
+        ]
+    },
+    {
+        "question": "Mit csinál, ha az ablaktörlő gumilapátja veszít törlőképességéből?",
+        "image": "",
+        "answers": [
+            "Kicseréli a gumilapátot.",
+            "Sík felületen megcsiszolja a gumilapátot.",
+            "A megszokottnál több ablakmosó folyadékot juttat a szélvédőre."
+        ]
+    },
+    {
+        "question": "Hogyan állítja le a gépkocsi motorját tartós, megerőltető hegymenet után?",
+        "image": "",
+        "answers": [
+            "A motort rövid ideig, egy-kettő percig nagy fordulatszámon működteti, hogy a gyorsan keringő folyadék a hűtést fokozza.",
+            "A motort rövid ideig, egy-kettő percig alapjárati fordulatszámon működteti, ezzel elősegíti a motor lehűlését.",
+            "A motort rögtön leállítja, hogy a motor hamarabb lehűljön."
+        ]
+    },
+    {
+        "question": "A tömítetlen, pl. repedt, lyukas kipufogó berendezést a lehető legrövidebb időn belül meg kell javíttatni, mert...",
+        "image": "",
+        "answers": [
+            "az utastérbe szivárgó égéstermék mérgezést okoz, és a kipufogás nagy zajt kelt.",
+            "a motor teljesítménye nagymértékben csökken, és a motor túlmelegszik.",
+            "a motor tüzelőanyag-fogyasztása nagymértékben emelkedik."
+        ]
+    },
+    {
+        "question": "Mi lehet az oka, ha a gumiabroncs futófelülete az ábrán látható módon kopott?",
+        "image": "bteszt2/54_54.gif",
+        "answers": [
+            "Az első futómű hibásan van beállítva.",
+            "A gumiabroncsot az előírtnál alacsonyabb nyomáson üzemeltették.",
+            "A gumiabroncsot az előírtnál magasabb nyomáson üzemeltették."
+        ]
+    },
+    {
+        "question": "Mi a hiba valószínű oka, ha a hidraulikus fék fékpedáljának ellenállása -többszöri lenyomása ellenére- nem szilárd, hanem rugalmas?",
+        "image": "",
+        "answers": [
+            "Tömítetlenség miatt a folyadék elszivárog a fékrendszerből.",
+            "A fékrendszerbe levegő jutott, amely összenyomható.",
+            "A fékdob és a fékpofák egyenlőtlenül koptak meg. "
+        ]
+    },
+    {
+        "question": "Köteles-e ellátni gépkocsiját \"H\" betűt feltüntető államjelzéssel?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem, csak akkor, ha gépkocsijával külföldre utazik."
+        ]
+    },
+    {
+        "question": "Mit kell beállítania a vezetőnek elindulás előtt a gépkocsin?",
+        "image": "",
+        "answers": [
+            "A visszapillantó tükröket és a vezetőülés magasságát.",
+            "A biztonsági övet és a kormánykerék állását.",
+            "A vezetőülést, a visszapillantó tükröket és a biztonsági övet, ha az nem automatikus állású."
+        ]
+    },
+    {
+        "question": "Szállíthat-e a személygépkocsi első ülésen 150 cm-nél alacsonyabb gyermeket?",
+        "image": "",
+        "answers": [
+            "Igen, ha az ülőhelyhez három ponton rögzített biztonsági öv van felszerelve, és ezt becsatolja.",
+            "Csak akkor, ha az üléshez nem tartozik légzsák és a gyermeket biztonsági gyermekülésbe helyezi.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Oldalirányba legfeljebb mennyire nyúlhat ki a gépkocsi hátsó részén rögzített rakomány?",
+        "image": "",
+        "answers": [
+            "0,4 m-re, ha a szélessége a 2,5 m-t nem haladja meg.",
+            "0,8 m-re, ha a szélessége a 2,5 m-t nem haladja meg.",
+            "1,0 m-re."
+        ]
+    },
+    {
+        "question": "Hogyan kell a közúti forgalomra vonatkozó jogszabályi rendelkezéseket megtartani?",
+        "image": "",
+        "answers": [
+            "Mindig meg kell találni azt az előírást, amely szerint szabályszerűen érvényesítheti jogait másokkal szemben.",
+            "Elsősorban az úticélt és az időráfordítást kell mérlegelni úgy, hogy közben a pillanatnyi érdekeinek megfelelően, rugalmasan alkalmazkodjon a szabályokhoz.",
+            "Úgy, hogy a személy- és vagyonbiztonságot ne veszélyeztesse, másokat közlekedésükben indokolatlanul ne akadályozzon, és ne zavarjon."
+        ]
+    },
+    {
+        "question": "Ön gépkocsijával egy vasúti átjáró előtt a sorompó felnyitására várakozik. Használhatja-e kézben tartva mobiltelefonját?",
+        "image": "",
+        "answers": [
+            "Igen, de csak az elindulásig.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Lakókocsit vontató személygépkocsijának mekkora a legnagyobb megengedett sebessége?",
+        "image": "",
+        "answers": [
+            "Lakott területen 40 km/h, az autópályán 100 km/h, autóúton 80 km/h, egyéb helyen 60 km/h.",
+            "40 km/h.",
+            "Autópályán 80 km/h, lakott területen 50 km/h, egyéb helyen 70 km/h."
+        ]
+    },
+    {
+        "question": "Téli időszakban hol számíthat fokozottabban az úttest eljegesedésére?",
+        "image": "",
+        "answers": [
+            "Nyílt, szeles útszakaszon.",
+            "Hidakon, felüljárókon és erdősávval védett útszakaszokon.",
+            "Aluljárókban, alagutakban, és nyílt, szeles útszakaszokon."
+        ]
+    },
+    {
+        "question": "Nehéz terepszakaszokon (friss hó, vizenyős-süppedős földút) hogyan kell áthaladni?",
+        "image": "",
+        "answers": [
+            "Nagy sebességgel, lendülettel.",
+            "Egyenletes, állandó tempóval.",
+            "Szakaszosan, az egyes szakaszok között meg kell állni."
+        ]
+    },
+    {
+        "question": "Miért kell csökkenteni a gépkocsi sebességét erős esőben?",
+        "image": "",
+        "answers": [
+            "Mert nagyobb sebesség esetén a tapadás teljesen megszűnhet az úttest és a gumiabroncsok között, ún. vízen csúszás jöhet létre.",
+            "Mert a kerékfékszerkezetekbe jutó víz a fékhatást nagymértékben csökkenti.",
+            "Mert a gumiabroncsok igénybevétele nagymértékben megnő."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt3/55_11.gif",
+        "answers": [
+            "Az ajánlott haladási irányt.",
+            "Az útkereszteződésben jobbra kell továbbhaladni.",
+            "Az úton balra bekanyarodni és megfordulni tilos."
+        ]
+    },
+    {
+        "question": "Mit kell tennie, ha az ilyen táblával jelzett helyhez közeledik?",
+        "image": "bteszt3/55_12.gif",
+        "answers": [
+            "Mérsékel sebességgel kell haladnia, mert az egyenetlen úttesten romlik a menetbiztonság.",
+            "A járművet gyorsítja, mert különben az egyenetlen úttesten a kerék és a talaj közötti szilárd kapcsolat megszűnhet.",
+            "Eggyel magasabb sebességfokozatba kapcsol, mert egyébként romlik a menetbiztonság."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt3/55_13.gif",
+        "answers": [
+            "Az úttestet a táblánál útburkolati jellel kijelölt gyalogos-átkelőhely keresztezi.",
+            "Az úttesten áthaladó gyalogosok forgalmát fényjelző készülék irányítja."
+        ]
+    },
+    {
+        "question": "Mire kell számítania a táblával jelölt helyen?",
+        "image": "bteszt3/55_14.gif",
+        "answers": [
+            "Veszélyes lejtőre, ahol a féktávolsága azonos sebesség esetén is hosszabb lesz, mint a sík úton.",
+            "Az út oldalirányú dőlése miatt járműve könnyen megcsúszhat.",
+            "Az út menti részű miatt az útpadkára hajtani veszélyes."
+        ]
+    },
+    {
+        "question": "Mit jelent a kiegészítő tábla?",
+        "image": "bteszt3/55_15.gif",
+        "answers": [
+            "Azt, hogy a szabálytalanul várakozó járművet elszállítással eltávolíthatják.",
+            "A megsérült és elhagyott járművek részére fenntartott várakozóhelyet.",
+            "Műszaki segélyt nyújtó járművek részére kijelölt állomáshelyet."
+        ]
+    },
+    {
+        "question": "Mit jelent ez a tábla?",
+        "image": "bteszt3/55_16.gif",
+        "answers": [
+            "Az egyirányú forgalmú útra ebből az irányból behajtani tilos.",
+            "Az útra mindkét irányból tilos behajtani.",
+            "Az útra csak célforgalomban szabad behajtani."
+        ]
+    },
+    {
+        "question": "Az úton a megengedett legnagyobb sebességgel halad. Hol kell csökkentenie gépkocsija sebességét, ha ilyen táblához közeledik?",
+        "image": "bteszt3/55_17.gif",
+        "answers": [
+            "Már a tábla előtt.",
+            "A tábla vonalában.",
+            "Csak a tábla után."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt3/55_18.gif",
+        "answers": [
+            "Az úton fénysorompóval biztosított olyan vasúti átjáró van, ahol teljes vagy félsorompó felszerelve nincs.",
+            "Az úton fény- és félsorompóval biztosított vasúti átjáró van.",
+            "Az úton jelzőőrrel biztosított vasúti átjáró van."
+        ]
+    },
+    {
+        "question": "Milyen jelzés következik ez után?",
+        "image": "bteszt3/55_19.gif",
+        "answers": [
+            "Piros fény, mely a továbbhaladás tilalmát jelzi.",
+            "Piros és sárga fény együtt, mely az elindulásra való felkészülés lehetőségét jelzi.",
+            "Zöld fény, mely szabad utat jelez."
+        ]
+    },
+    {
+        "question": "Mit jelez az ilyen útburkolati jel?",
+        "image": "bteszt3/55_20.gif",
+        "answers": [
+            "Azt, hogy a forgalmi sávból a következő útkereszteződésnél melyik irányba szabad továbbhaladni.",
+            "Azt, hogy a forgalmi sávot - a sávváltoztatásra vonatkozó szabályok megtartásával - a jelzett irányban el kell hagyni."
+        ]
+    },
+    {
+        "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Ha jelzőtábla nem tiltja, bekanyarodhat-e jobbra ennél a jelzésnél?",
+        "image": "bteszt3/55_21.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+        "image": "bteszt3/55_22.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ön a tanulókocsit vezeti. Mikor indulhat el?",
+        "image": "bteszt3/55_23.gif",
+        "answers": [
+            "Azonnal, ha a vonat elhaladt.",
+            "Ha a fénysorompó villogó, fehér fényjelzésre vált át."
+        ]
+    },
+    {
+        "question": "Ön a tanulókocsit vezeti. Hol kell megállnia?",
+        "image": "bteszt3/55_24.gif",
+        "answers": [
+            "A tábla vonalában.",
+            "Az útkereszteződésbe való behaladás előtt."
+        ]
+    },
+    {
+        "question": "Ön a személygépkocsit vezeti. Elsőbbséget kell-e adnia a gyalogosoknak?",
+        "image": "bteszt3/55_25.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mikor haladhat át a kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésen?",
+        "image": "bteszt3/55_26.gif",
+        "answers": [
+            "Az \"A\" jelű gépkocsival egyidejűleg, a \"B\" jelű villamos előtt.",
+            "A \"B\" jelű villamos után, Az \"A\" jelű gépkocsival egyidejűleg."
+        ]
+    },
+    {
+        "question": "Melyik jármű haladhat tovább elsőként?",
+        "image": "bteszt3/55_27.gif",
+        "answers": [
+            "Az \"A\" jelű gépkocsi.",
+            "Az \"B\" jelű gépkocsi.",
+            "Az Ön kormánykerékkel ábrázolt járműve."
+        ]
+    },
+    {
+        "question": "Ön a tanulókocsit vezeti. Kell-e elsőbbséget adnia ebben a forgalmi helyzetben?",
+        "image": "bteszt3/55_28.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Kell-e elsőbbséget adnia ebben a forgalmi helyzetben a kormánykerékkel ábrázolt gépkocsijával?",
+        "image": "bteszt3/55_29.gif",
+        "answers": [
+            "Nem.",
+            "Igen, a \"B\" jelű jármű részére.",
+            "Igen, a \"A\" jelű gépkocsi részére."
+        ]
+    },
+    {
+        "question": "Hányadikként haladhat át az útkereszteződésben a kormánykerékkel ábrázolt gépkocsijával?",
+        "image": "bteszt3/55_30.gif",
+        "answers": [
+            "Elsőként.",
+            "Másodikként.",
+            "Utolsóként."
+        ]
+    },
+    {
+        "question": "Legalább mekkora sebességkülönbség szükséges az előző és az előzendő gépjárművek között, hogy az előzési út ne legyen túl hosszú?",
+        "image": "",
+        "answers": [
+            "Körülbelül 5-6 km/h.",
+            "Körülbelül 10-15 km/h.",
+            "Körülbelül 15-20 km/h."
+        ]
+    },
+    {
+        "question": "Mennyire közelíthető meg az előzendő jármű felzárkózásból történő előzés előtt?",
+        "image": "",
+        "answers": [
+            "Annyira, hogy a távolság a két jármű között a féktávolságnak feleljen meg.",
+            "Néhány méterre, hogy az előzési út hossza minél rövidebb legyen.",
+            "Csak annyira, hogy az előzendő jármű hirtelen fékező megállása esetén is még biztonságosan meg tudjon állni."
+        ]
+    },
+    {
+        "question": "Mire kell számítania a megállóban álló autóbusz megközelítésekor?",
+        "image": "",
+        "answers": [
+            "Arra, hogy a busz takarásából figyelmetlen gyalogos léphet a gépkocsija elé.",
+            "Arra, hogy a busz váratlanul kiindul a megállóból.",
+            "Arra, hogy a busz előtt várakozó gépkocsi van."
+        ]
+    },
+    {
+        "question": "Gépkocsival akkor hajthat a villamospályára, ha a villamosforgalmat...",
+        "image": "",
+        "answers": [
+            "nem zavarja.",
+            "nem akadályozza, legfeljebb kis mértékben zavarja.",
+            "nem veszélyezteti, legfeljebb kis mértékben akadályozza."
+        ]
+    },
+    {
+        "question": "Figyelembe kell-e venni a párhuzamos közlekedés szempontjából a gyorsító- és lassítósávot?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Hasznos-e egy-egy elképzelt közlekedési helyzet gondolatban való megoldása?",
+        "image": "",
+        "answers": [
+            "Nem, ennek semmi értelme nincs.",
+            "Igen, ez segíti a közlekedési érzék és gondolkodás kialakulását.",
+            "Nem, mert ha gondolatban meg tudja oldani, akkor ez a valóságban is sikerülne."
+        ]
+    },
+    {
+        "question": "Jobbra kíván bekanyarodni. Az útkereszteződés előtt köteles-e besorolni az úttest jobb szélén lévő autóbusz forgalmi sávba?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Féktávolságának határán észreveszi, hogy egy gyalogos szabálytalan helyen, halad át az úttesten. Ha mindketten változatlanul tartják a korábbi haladási ütemüket, akkor összeütköznek. Mit tesz?",
+        "image": "",
+        "answers": [
+            "Ledudálja a gyalogost az úttestről.",
+            "Lassít, hogy szükség esetén meg tudja állítani a járművét.",
+            "Növeli a járműve sebességét, és úgy változtat irányt, hogy új nyomvonala félreérthetetlenül a gyalogos elé essék."
+        ]
+    },
+    {
+        "question": "Szabad-e hátramenetet végezni hídon?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "A tüzelőanyag-takarékos üzemeltetés érdekében melyik sebességi fokozatot kell bekapcsolni hegymenetben?",
+        "image": "",
+        "answers": [
+            "Azt a sebességfokozatot, amelyikben a motor közepes fordulatszámon üzemeltethető.",
+            "Azt a sebességfokozatot, amelyikben a motor nagy fordulatszámon üzemeltethető.",
+            "Azt a sebességfokozatot, amelyikben a motor kis fordulatszámon üzemeltethető."
+        ]
+    },
+    {
+        "question": "Autópályán közlekedik. Hol állhat meg kikapcsolódás (pihenés) céljából?",
+        "image": "",
+        "answers": [
+            "A leállósávon.",
+            "Az útpadkán.",
+            "Az út mellett kiépített várakozóhelyen."
+        ]
+    },
+    {
+        "question": "Ahol a jármű, és az úttest másik szélén álló másik jármű között legalább 3m széles hely nem marad, ott...",
+        "image": "",
+        "answers": [
+            "megállni tilos.",
+            "megállhat, de nem várakozhat.",
+            "megállni, és várakozni egyaránt szabad."
+        ]
+    },
+    {
+        "question": "Köteles-e irányjelzővel jelezni megállási szándékát?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Csak akkor, ha irányváltoztatással jár.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mivel kell kivilágítani éjszaka az úttesten várakozó gépjárművet?",
+        "image": "",
+        "answers": [
+            "Helyzetjelző lámpákkal.",
+            "Tompított fényszórókkal.",
+            "Távolsági fényszórókkal."
+        ]
+    },
+    {
+        "question": "Sűrű köd miatt korlátozottak a látási viszonyok. Ki kell-e világítani a forgalomban résztvevő gépkocsit?",
+        "image": "",
+        "answers": [
+            "Csak éjszaka.",
+            "Csak lakott területen kívül.",
+            "Igen."
+        ]
+    },
+    {
+        "question": "Helyes ívben kanyarodik-e országúton a személygépkocsi?",
+        "image": "bteszt3/55_46.gif",
+        "answers": [
+            "Nem, mert a gépkocsi könnyen kisodródhat az úttestről.",
+            "Igen, mert a lehető legnagyobb sugarú íven halad, ezért a kisodródás veszélye kisebb.",
+            "Nem, mert könnyen átcsúszhat a felezővonalon."
+        ]
+    },
+    {
+        "question": "Elromlott járművet vontat. Milyen hosszú lehet legfeljebb a vonatórúd, illetve a vontatókötél?",
+        "image": "",
+        "answers": [
+            "Legfeljebb 4 méter.",
+            "Legfeljebb olyan hosszú, mint a vontatott jármű.",
+            "Legfeljebb olyan hosszú, mint a vonó jármű."
+        ]
+    },
+    {
+        "question": "Közlekedhet-e gyalogosként az útpadkán, ha az úton van járda?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Figyelembe kell-e vennie a közútnak és környezetének védelmére vonatkozó jogszabályi rendelkezéseket?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mikor hagyhatja el a balesettel érintett gépkocsivezető a baleset helyszínét rendőri intézkedés esetén?",
+        "image": "",
+        "answers": [
+            "Csak akkor, ha erre az intézkedő rendőr engedélyt ad.",
+            "Adatainak az intézkedő rendőr által történt felvétele után bármikor."
+        ]
+    },
+    {
+        "question": "Mi a következménye annak, ha az ékszíj laza, csúszik?",
+        "image": "",
+        "answers": [
+            "Akkor a hűtés és a generátor töltése nem kielégítő.",
+            "Akkor a benzinszivattyú nem működik kielégítően.",
+            "Akkor a gyújtás időpontja megváltozik."
+        ]
+    },
+    {
+        "question": "Ha a tengelykapcsolónak nincs holtjátéka, akkor a motor és a sebességváltómű közötti kapcsolat...",
+        "image": "",
+        "answers": [
+            "nem tökéletes, a tengelykapcsoló csúszik.",
+            "nem szakítható meg, a tengelykapcsoló nem old.",
+            "csak részben szakítható meg, a sebességváltás ezért zajos."
+        ]
+    },
+    {
+        "question": "Működik-e a hidraulikus kormányszervó akkor, ha a motor hibája miatt üzemképtelen gépkocsit vontatják?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "A személygépkocsi gumiabroncsa csak addig használható, amíg a futófelület bordázatának magassága -a teljes felületen- eléri...",
+        "image": "",
+        "answers": [
+            "a 3 mm-t.",
+            "az 1,6 mm-t.",
+            "az 1 mm-t."
+        ]
+    },
+    {
+        "question": "Mi a hiba valószínű oka, ha a hidraulikus fék fékpedálja a teljes út kb. 2/3-ig benyomható, és csak akkor válik szilárddá az ellenállása?",
+        "image": "",
+        "answers": [
+            "Nagy a hézag a fékpofák, és a fékdob között.",
+            "Tömítetlenség miatt a folyadék elszivárog a fékrendszerből.",
+            "Tömítetlenség miatt levegő jutott a rendszerbe. "
+        ]
+    },
+    {
+        "question": "Elindulhat-e telephelyről (garázsból, várakozóhelyről stb.) olyan gépkocsival, amelynek elromlott az egyik féklámpája?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Csak kis forgalmú időszakban, és mellékútvonalon.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mentesítheti-e orvos Önt a biztonsági öv viselésének kötelezettsége alól?",
+        "image": "",
+        "answers": [
+            "Igen, ha igazolást ad arról, hogy az öv bekapcsolása egészségi okból hátrányos az Ön számára.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Zavarhatja vagy akadályozhatja-e az Önnel szemben elsőbbséggel rendelkező gyalogost?",
+        "image": "",
+        "answers": [
+            "Igen, nagy forgalom esetén még a jelentősebb akadályozás is indokolt lehet.",
+            "A zavarás lehet indokolt, de akadályozni mindig tilos.",
+            "A zavarás és az akadályozás egyaránt tilos."
+        ]
+    },
+    {
+        "question": "Találkozhat-e egyirányú forgalmú úton a menetiránnyal szemben közlekedő megkülönböztető jelzéseit használó gépjárművel?",
+        "image": "",
+        "answers": [
+            "Igen, bármely időpontban.",
+            "Csak 22-06 h között.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Köteles-e teljesíteni a közlekedési magatartásra vonatkozó utasítást, ha azt hangszórón keresztül rendőrségi helikopterről adták?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem, az ilyen parancsnak nem lehet jogkövetkezménye."
+        ]
+    },
+    {
+        "question": "Általában hol kell járművel haladnia az úton?",
+        "image": "",
+        "answers": [
+            "Az úttest menetirány szerinti jobb oldalán, a lehetséges mértékben annak széléhez húzódva.",
+            "Az úttest menetirány szerinti jobb oldalán, annak szélétől legfeljebb egy méter távolságra.",
+            "A menetirány szerinti jobb oldalon bárhol."
+        ]
+    },
+    {
+        "question": "Járműve sebességét úgy kell megválasztania, hogy...",
+        "image": "",
+        "answers": [
+            "a belátható útszakasz ne legyen hosszabb, mint a reakcióidő alatt befutott út.",
+            "féktávolsága ne legyen hosszabb, mint a belátható útszakasz fele.",
+            "féktávolsága ne legyen hosszabb, mint a belátható útszakasz."
+        ]
+    },
+    {
+        "question": "Mekkora a személygépkocsi megengedett legnagyobb sebessége az autóúton?",
+        "image": "",
+        "answers": [
+            "120 km/h.",
+            "110 km/h.",
+            "90 km/h."
+        ]
+    },
+    {
+        "question": "Melyik sebességfokozatban a legnagyobb a gépkocsi vonóereje?",
+        "image": "",
+        "answers": [
+            "Az I. sebességfokozatban és hátramenetben.",
+            "A II. sebességfokozatban.",
+            "A legnagyobb sebességfokozatban."
+        ]
+    },
+    {
+        "question": "Mire számíthat, ha a kerekek fékezéskor nem gördülnek, hanem állóra fékeződnek (blokkolnak)?",
+        "image": "",
+        "answers": [
+            "A fékút a többszörösére növekszik.",
+            "A gépkocsi kifarolhat, mivel a csúszó kerekek elvesztik ellenállásukat az oldalerőkkel szemben.",
+            "A fékhatás nagymértékben csökken."
+        ]
+    },
+    {
+        "question": "A táblával jelölt út úttestjén kell-e számítani szembejövő forgalomra?",
+        "image": "bteszt4/56_11.gif",
+        "answers": [
+            "Igen",
+            "Nem"
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt4/56_12.gif",
+        "answers": [
+            "Az úton a megjelölt sebességgel kell haladni.",
+            "Az úton a megjelölt sebességnél lassabban kell haladni.",
+            "Az úton a megjelöltnél nagyobb sebességgel haladni tilos."
+        ]
+    },
+    {
+        "question": "Köteles-e irányjelzést adni, ha a táblán vastag vonallal jelzett utat egyenesen elhagyja?",
+        "image": "bteszt4/56_13.gif",
+        "answers": [
+            "Igen, jobbra kell jelzést adni.",
+            "Igen, balra kell jelzést adni.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mire kell számítania, ha az úton ilyen táblát lát?",
+        "image": "bteszt4/56_14.gif",
+        "answers": [
+            "Az út zsákutca, így csak ebből az irányból lehet oda be- és kihajtani.",
+            "Az úttesten olyan javítási munka folyik, ami akadályozza a járművek folyamatos haladását.",
+            "Az utat a rendőrség útzár telepítésével lezárta."
+        ]
+    },
+    {
+        "question": "Mire kell fokozottan ügyelnie a táblával megjelölt övezetben?",
+        "image": "bteszt4/56_15.gif",
+        "answers": [
+            "A gyalogosok - különösen a gyermekek - és a kerékpárosok biztonságára.",
+            "A tömegközlekedést bonyolító járművekre, mert a többi járművel szemben előnyt élveznek.",
+            "Forgalomirányítással nem szabályozott veszélyes útkereszteződésekre."
+        ]
+    },
+    {
+        "question": "Lakott területen a jelzőtáblát elhagyva legfeljebb milyen sebességgel közelítheti meg a vasúti átjárót?",
+        "image": "bteszt4/56_16.gif",
+        "answers": [
+            "20 km/h.",
+            "30 km/h.",
+            "40 km/h."
+        ]
+    },
+    {
+        "question": "Mire kell számítani a jelzett helyen, ha az úton ilyen táblát lát?",
+        "image": "bteszt4/56_17.gif",
+        "answers": [
+            "Hóesés esetén fokozott baleseti veszélyre, mert ilyenkor az úttest erősen csúszóssá válhat.",
+            "Jobbra ívelő útkanyarulatra, amelyben az út egy részét felbontották az ott folyó karbantartási munkák miatt."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "bteszt4/56_18.gif",
+        "answers": [
+            "Járműforgalom elől elzárt útszakaszt.",
+            "Az útra csak személygépkocsival tilos behajtani.",
+            "Az útra - a kétkerekű motorkerékpár kivételével - gépjárművel, valamint mezőgazdasági vontatóval és lassú járművel behajtani tilos."
+        ]
+    },
+    {
+        "question": "Meddig tart a tábla hatálya?",
+        "image": "bteszt4/56_19.gif",
+        "answers": [
+            "A következő útkereszteződésig.",
+            "A \"Megállni tilos\" vagy a \"Várakozni tilos\" tábláig.",
+            "A \"Várakozási övezet (zón vége\" tábláig."
+        ]
+    },
+    {
+        "question": "Mire hívja fel a figyelmet a fényjelző készülék villogó sárga fénye?",
+        "image": "bteszt4/56_20.gif",
+        "answers": [
+            "Az útkereszteződésbe a jobbkéz-szabály szerint alakul az elsőbbség kérdése.",
+            "Veszélyes helyre, ahol fokozott óvatossággal szabad továbbhaladni."
+        ]
+    },
+    {
+        "question": "Ön a tanulókocsit vezeti. Mi a teendője, ha a fénysorompó üzemzavarát észleli?",
+        "image": "bteszt4/56_21.gif",
+        "answers": [
+            "A \"Vasúti átjáró kezdete\" táblánál meg kell állnia.",
+            "Továbbhaladnia csak akkor szabad, ha meggyőződött arról, hogy vasúti jármű nem közeledik.",
+            "Meg kell állnia, és várnia kell arra, hogy az ilyenkor helyszínre siető jelzőőr engedélyt adjon a továbbhaladásra.",
+            "Megállás nélkül folytathatja útját, ha kellő biztonsággal meg tud győződni arról, hogy egyik irányból sem közeledik vasúti jármű."
+        ]
+    },
+    {
+        "question": "Kötelező-e irányjelzést adni ebben a forgalmi helyzetben?",
+        "image": "bteszt4/56_22.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Folytathatja-e az útját a tanulókocsi, ha a rendőr ebben a testhelyzetben a karját felemelte?",
+        "image": "bteszt4/56_23.gif",
+        "answers": [
+            "Igen, mert szabad jelzés következik.",
+            "Csak akkor, ha az útkereszteződés előtt már biztonságosan megállni nem lehet.",
+            "Nem, a gépkocsit mindenképpen meg kell állítani."
+        ]
+    },
+    {
+        "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+        "image": "bteszt4/56_24.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Szabad-e az adott helyen a személygépkocsival megállni?",
+        "image": "bteszt4/56_25.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Hányadikként haladhat át az útkereszteződésen a kormánykerékkel ábrázolt járművével?",
+        "image": "bteszt4/56_26.gif",
+        "answers": [
+            "Elsőként.",
+            "Másodikként.",
+            "Utolsóként."
+        ]
+    },
+    {
+        "question": "A kormánykerékkel ábrázolt gépkocsijával az útkereszteződéshez érkezik. Melyik jármű haladhat tovább utolsóként?",
+        "image": "bteszt4/56_27.gif",
+        "answers": [
+            "Az \"A\" jelű gépkocsi.",
+            "Az \"B\" jelű gépkocsi.",
+            "Az Ön kormánykerékkel ábrázolt gépkocsija."
+        ]
+    },
+    {
+        "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+        "image": "bteszt4/56_28.gif",
+        "answers": [
+            "Igen, az \"A\" jelű motorkerékpár részére.",
+            "Igen, az \"B\" jelű villamos részére.",
+            "Nincs."
+        ]
+    },
+    {
+        "question": "Mikor haladhat át a kormánykerékkel ábrázolt gépkocsijával az útkereszteződésen?",
+        "image": "bteszt4/56_29.gif",
+        "answers": [
+            "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+            "Az \"A\" és a \"B\" jelű járművek előtt.",
+            "Az \"A\" és a \"B\" jelű járművek után."
+        ]
+    },
+    {
+        "question": "A kormánykerékkel ábrázolt gépkocsijával az útkereszteződéshez érkezik. Melyik jármű haladhat tovább elsőként?",
+        "image": "bteszt4/56_30.gif",
+        "answers": [
+            "Az \"A\" jelű gépkocsi.",
+            "A \"B\" jelű gépkocsi.",
+            "Az Ön kormánykerékkel ábrázolt gépkocsija."
+        ]
+    },
+    {
+        "question": "Hogyan kell meggyőződnie a mögöttes forgalomról az előzés megkezdése előtt?",
+        "image": "",
+        "answers": [
+            "A belső visszapillantó tükörből és hátranézve.",
+            "A belső és külső visszapillantó tükörből, és ha szükséges, hátrapillantva is.",
+            "Csak a belső visszapillantó tükörből."
+        ]
+    },
+    {
+        "question": "Az alábbiak közül melyik jármű előzhető meg gépjárművel a vasúti átjáróban?",
+        "image": "",
+        "answers": [
+            "A lassú jármű.",
+            "A lovas kocsi.",
+            "A kétkerekű motorkerékpár."
+        ]
+    },
+    {
+        "question": "Szabad-e kikerülni a megkülönböztető fényjelzést használó gépjárművet?",
+        "image": "",
+        "answers": [
+            "Igen, fokozott figyelemmel.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "A várakozó gépkocsik melletti elhaladáskor mekkora oldaltávolságot célszerű tartani?",
+        "image": "",
+        "answers": [
+            "Egy ajtónyitásnyit.",
+            "Egy keréknyomnyit.",
+            "Egy kocsiszélességnyit."
+        ]
+    },
+    {
+        "question": "Elsőbbséget kell e adnia egyenrangú útkereszteződésben a balról érkező villamospótló autóbusz részére?",
+        "image": "",
+        "answers": [
+            "Igen, ha az a villamosvágányon közlekedik.",
+            "Igen, minden esetben.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Kanyarodósávot útburkolati jelekkel a villamospályán jelölték ki. Akadályozhatja-e a villamospályára való ráhajtáskor a villamost?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Főútvonalon közlekedik. Kényszerítheti-e Önt egy másik jármű fékezésre, vagy irányváltoztatásra?",
+        "image": "",
+        "answers": [
+            "Igen, mert számos olyan helyzet adódhat, amelyet csak a partner közreműködésével lehet biztonságosan megoldani.",
+            "Csak balesetveszély esetén, a baleset megelőzése érdekében.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "A kijelölt gyalogos-átkelőhelyet olyan sebességgel kell megközelíteni, hogy...",
+        "image": "",
+        "answers": [
+            "előtte bármikor meg tudjon állni.",
+            "ha járműve áthaladása előtt gyalogos érkezik a \"zebrához\", az zavartalanul áthaladhasson.",
+            "ez a gyalogosokat ne biztassa az átkelés megkezdésére."
+        ]
+    },
+    {
+        "question": "Mikor szükséges hátramenethez biztosító személy?",
+        "image": "",
+        "answers": [
+            "Akkor, ha a jármű tolatólámpája nem működik.",
+            "Akkor, ha a személy- és vagyonbiztonság megkívánja a közreműködést.",
+            "Minden esetben, ha a hátramenet irányváltoztatással is jár."
+        ]
+    },
+    {
+        "question": "A tüzelőanyag-takarékos üzemeltetés érdekében mikor célszerű kisebb sebességfokozatba kapcsolni?",
+        "image": "",
+        "answers": [
+            "Ha a motor fordulatszáma a legnagyobb fordulatszám 2/3-ára csökken.",
+            "Ha a motor fordulatszáma a legnagyobb fordulatszám 1/2-éra csökken.",
+            "Ha a motor fordulatszáma a legnagyobb fordulatszám 1/3-ára csökken, mielőtt a motor rángatna."
+        ]
+    },
+    {
+        "question": "Megfordulhat-e az autópályán?",
+        "image": "",
+        "answers": [
+            "Igen, ha ezzel nem akadályozza a többi jármű közlekedését.",
+            "Csak ott, ahol az elválasztó sáv betonnal borított.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Autópályán közlekedve előzhet-e jobbról?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mikor szabad a gépkocsi ajtaját kinyitni?",
+        "image": "",
+        "answers": [
+            "Ha ezzel a forgalomban résztvevőket nem zavarja.",
+            "Ha ezzel a forgalomban résztvevőket semmiféle manőverezésre nem kényszeríti.",
+            "Ha ezzel a közlekedés biztonságát, valamint a személy- és vagyonbiztonságot nem veszélyezteti."
+        ]
+    },
+    {
+        "question": "Várakozhat-e lakó-pihenő övezetben, ha az úton nincs járda?",
+        "image": "",
+        "answers": [
+            "Igen, de csak a kijelölt várakozóhelyeken.",
+            "Nem, várakozni mindenütt tilos.",
+            "Igen, az általános várakozási szabályok érvényesek az ilyen helyen is, tehát ahol azok nem tiltják."
+        ]
+    },
+    {
+        "question": "Ki kell-e világítani az úttesten álló gépkocsit éjszaka, ha közvilágítás nincs, és más külső fényforrás sem világítja meg a gépkocsit kielégítően?",
+        "image": "",
+        "answers": [
+            "Igen, a helyzetjelző lámpákkal.",
+            "Igen, a helyzetjelző lámpákkal és tompított fényszórókkal.",
+            "Nem kötelező, de ajánlatos."
+        ]
+    },
+    {
+        "question": "Mikor vakíthatnak a személygépkocsi helyesen beállított tompított fényszórói?",
+        "image": "",
+        "answers": [
+            "Ha a generátor feszültségszabályzója hibás.",
+            "Ha a gumiabroncsokban az előírtnál nagyobb a légnyomás.",
+            "Ha a gépkocsi hátul nagyon meg van terhelve, vagy ha a hátsó kerék gumiabroncsaiban alacsony a légnyomás."
+        ]
+    },
+    {
+        "question": "Szabad-e a vezetőn kívül más személyt szállítani a vontatott járművön?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Az ábrán látható irányú erős oldalszélben kb. 70-80 km/h sebességgel haladó személygépkocsi nagyméretű járműszerelvényt előz. Miért kell nagy oldaltávolságot tartani a két jármű között?",
+        "image": "bteszt4/56_48.gif",
+        "answers": [
+            "Mert különben a széllel szemben kormányzott személygépkocsi a járműszerelvény mellé érve - a megszűnő oldalszél miatt - a járműszerelvénybe ütközhet.",
+            "Mert különben a járműszerelvény menetszele kitéríti a személygépkocsit az eredeti nyomvonalából.",
+            "Mert különben a járműszerelvény által keltett légörvény miatt egymáshoz ütközhetnek."
+        ]
+    },
+    {
+        "question": "Vontathat-e személygépkocsijával pótkocsit, ha \"B\" kategóriás jogosítványa kezdő vezetői engedélynek minősül?",
+        "image": "",
+        "answers": [
+            "Igen, de csak egy könnyű pótkocsit.",
+            "Igen, ha a járművet négyzet alakú, kék alapszínű, fehér \"T\" betűt ábrázoló táblával megjelöli.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ha a forgalomban részt vevő gépkocsinak nincs vagy érvénytelen a környezetvédelmi igazolólapja, akkor az...",
+        "image": "",
+        "answers": [
+            "nem minősül szabálysértésnek.",
+            "KRESZ-szabálysértésnek minősül."
+        ]
+    },
+    {
+        "question": "Ha a motor üzemmeleg, le szabad-e venni a zárt rendszerű hűtő zárósapkáját?",
+        "image": "",
+        "answers": [
+            "Nem, mert a hűtőrendszerben túlnyomás van így a kicsapódó forró folyadék és gőz, égési sérülést okozhat.",
+            "Nem, mert a hirtelen nyomásesés miatt a hűtőrendszer megsérülhet.",
+            "Igen, de csak akkor, ha előbb a kiegyenlítőtartályról a zárósapkát eltávolítják."
+        ]
+    },
+    {
+        "question": "Üzemeltethető-e tovább a gépkocsi, ha a hidraulikus kormányszervóban az olajnyomás megszűnt, de a hidraulikaolaj nem folyt el?",
+        "image": "",
+        "answers": [
+            "Igen, tartósan is, mivel a kormányberendezés továbbra is üzemképes.",
+            "Nem, a gépkocsit a javítóműhelyig vontatni kell.",
+            "Igen, de csak a legközelebbi javítóműhelyig."
+        ]
+    },
+    {
+        "question": "A tengelykapcsoló holtjátéka a betétek fokozatos kopása miatt...",
+        "image": "",
+        "answers": [
+            "növekszik.",
+            "nem változik.",
+            "csökken."
+        ]
+    },
+    {
+        "question": "Ha a gépkocsi kerekei kiegyensúlyozatlanok, akkor nagyobb sebességnél...",
+        "image": "",
+        "answers": [
+            "az első kerekek szitáló, ugráló mozgása miatt a jármű nehezebben irányítható, a kormánykerék rángat.",
+            "a jármű nagymértékben beleng.",
+            "a gumiabroncsok sokkal jobban felmelegednek."
+        ]
+    },
+    {
+        "question": "Mi a hiba valószínű oka, ha a hidraulikus fék fékpedálja csekély ellenállással teljesen benyomható?",
+        "image": "",
+        "answers": [
+            "Megnövekedett a fékpedál holtjátéka.",
+            "Megnövekedett a fékdob és a fékpofák közötti hézag.",
+            "Tömítetlenség miatt a fékfolyadék elfolyt. "
+        ]
+    },
+    {
+        "question": "Kötelező-e felszerelni motorkerékpárját elsősegély- (sebkötöző) csomaggal?",
+        "image": "",
+        "answers": [
+            "Nem kötelező, de ajánlott.",
+            "Igen, de legalább egy szabvány szerinti csomag szükséges.",
+            "Igen, annyi csomag szükséges, ahány személy utazhat a motorkerékpáron, de legalább kettő."
+        ]
+    },
+    {
+        "question": "Vezetőnek tekinthető-e a motorkerékpárt toló személy?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Bukósisakjának a csatja elszakadt. Folytathatja-e az útját a motorkerékpárjával?",
+        "image": "",
+        "answers": [
+            "Igen, de csak az első olyan helyig, ahol a hibát kijavíthatja.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Az alábbiak közül melyik a helyes megfigyelési technika?",
+        "image": "",
+        "answers": [
+            "Tekintetünket igyekezünk az úton közvetlenül a gépjármű elé irányítani.",
+            "Felváltva figyeljük az út jobb és bal oldalát.",
+            "Tekintetünkkel vezessük végig azon a pályán, amelyen haladni szeretnénk."
+        ]
+    },
+    {
+        "question": "Mitől és hogyan függ a kanyarodó gépjárműre ható centrifugális erő?",
+        "image": "",
+        "answers": [
+            "A centrifugális erő a sebességgel és a kanyarodási sugárral egyenes arányban változik.",
+            "A centrifugális erő a sebesség négyzetével egyenes arányban, a kanyarodási sugárral fordított arányban változik.",
+            "A centrifugális erő a sebesség négyzetével és kanyarodási sugárral egyenes arányban változik."
+        ]
+    },
+    {
+        "question": "Milyen sebességgel haladhat motorkerékpárjával lakott területen?",
+        "image": "",
+        "answers": [
+            "Legfeljebb 40 km/h sebességgel.",
+            "Legfeljebb 50 km/h sebességgel."
+        ]
+    },
+    {
+        "question": "Melyik szabályértelmezés a helyes?",
+        "image": "",
+        "answers": [
+            "Mindig a megengedett legnagyobb sebességgel kell haladni, kivéve, ha a körülmények csökkentett sebességet indokolnak.",
+            "Akkor szabad a megengedett legnagyobb sebességgel haladni, ha a körülmények csökkentett sebességet nem indokolnak."
+        ]
+    },
+    {
+        "question": "Előnyös-e a kézi- és lábfék együttes használata a motorkerékpáron?",
+        "image": "",
+        "answers": [
+            "Nem, mert csökken a motorkerékpár menetstabilitása.",
+            "Igen, mert nő a motorkerékpár stabilitása a fékútja.",
+            "Csak a lábfék használata fontos, a kézifék szerepe csekély."
+        ]
+    },
+    {
+        "question": "Az alábbiak közül melyik úttesten a legrosszabb a gumiabroncsok tapadása esőzés alatt?",
+        "image": "",
+        "answers": [
+            "A kockakő burkolatún.",
+            "A beton burkolatún.",
+            "Az aszfalt burkolatún."
+        ]
+    },
+    {
+        "question": "Mi a fékkésedelmi idő fékezéskor?",
+        "image": "",
+        "answers": [
+            "A fékpedál érintésétől a fékhatás létrejöttéig eltelt idő.",
+            "Az akadály észlelésétől a fékhatás létrejöttéig eltelt idő.",
+            "Az akadály észlelésétől a fékpedál érintéséig eltelt idő."
+        ]
+    },
+    {
+        "question": "Érvényes-e a tábla utasítása a motorkerékpárra?",
+        "image": "ateszt1/9_11.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Hogyan kell közlekedni járművel az ilyen táblával jelölt helyen?",
+        "image": "ateszt1/9_12.gif",
+        "answers": [
+            "A gyalogosok veszélyeztetése nélkül, legfeljebb 10 km/h sebességgel.",
+            "A gyalogosok akadályoztatása nélkül, legfeljebb 10 km/h sebességgel.",
+            "A gyalogosok veszélyeztetése nélkül, legfeljebb 20 km/h sebességgel."
+        ]
+    },
+    {
+        "question": "Lakott területen belül e közúti jelzés mellett halad el. Mekkora távolság után várható a veszélyes hely kezdete?",
+        "image": "ateszt1/9_13.gif",
+        "answers": [
+            "50… 100 m-re.",
+            "150… 250 m-re.",
+            "250… 500 m-re."
+        ]
+    },
+    {
+        "question": "Melyik járművet előzheti gépjárművével e jelzőtábla után?",
+        "image": "ateszt1/9_14.gif",
+        "answers": [
+            "A lassú járművet.",
+            "A mezőgazdasági vontatót.",
+            "A kétkerekű motorkerékpárt."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "ateszt1/9_15.gif",
+        "answers": [
+            "Az „Elsőbbségadás kötelező” táblára kell számítani, a kiegészítő táblán feltüntetett távolságra.",
+            "Az „Állj! Elsőbbségadás kötelező” táblára kell számítani, a kiegészítő táblán feltűntetett távolságra.",
+            "Az elsőbbségadási kötelezettség a kiegészítő táblán feltüntetett hosszúságú útszakaszon áll fenn."
+        ]
+    },
+    {
+        "question": "Lakott területen a jelzőtáblát elhagyva legfeljebb milyen sebességgel közelítheti meg a vasúti átjárót?",
+        "image": "ateszt1/9_16.gif",
+        "answers": [
+            "20 km/h.",
+            "30 km/h.",
+            "40 km/h."
+        ]
+    },
+    {
+        "question": "Általában meddig tart a táblával jelzett tilalom?",
+        "image": "ateszt1/9_17.gif",
+        "answers": [
+            "A következő útkereszteződés végéig.",
+            "A következő útkereszteződés kezdetéig."
+        ]
+    },
+    {
+        "question": "Behajthat-e kétkerekű motorkerékpárjával a táblával jelölt útra?",
+        "image": "ateszt1/9_18.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Autópályán haladva ezt a táblát látja. Mire kell számítania?",
+        "image": "ateszt1/9_19.gif",
+        "answers": [
+            "A pálya építésére és fenntartására, illetve közbiztonsági feladat ellátására szolgáló járművek a leálló sávon a forgalommal szemben haladnak.",
+            "A pálya egyik oldalát útjavítás vagy egyéb ok miatt lezárták, és a járműveket onnan az ellenkező irányú forgalom lebonyolítására szolgáló úttestre terelik.",
+            "Külön jelzés nélkül ér véget az autópálya, az útra eddig érvényes tilalmakat figyelmen kívül lehet hagyni."
+        ]
+    },
+    {
+        "question": "Mikor hagyhatja figyelmen kívül az ilyen útburkolati jelet?",
+        "image": "ateszt1/9_20.gif",
+        "answers": [
+            "Ha a keresztező úton közlekedő jármű vezetője egyértelműen jelezte, hogy lemond elsőbbségéről.",
+            "Ha a keresztező úton nem lát közeledő járművet.",
+            "Ha a forgalomirányítás szabad utat ad."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt1/9_21.gif",
+        "answers": [
+            "Elsőbbséget kell adnia az „A” jelű jármű részére.",
+            "Továbbhalad, mert elsőbbsége van az „A” jelű járművel szemben."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrán látható útkereszteződéshez érkezik. Melyik jármű haladhat tovább elsőként?",
+        "image": "ateszt1/9_22.gif",
+        "answers": [
+            "Az „A” jelű jármű.",
+            "Az Ön motorkerékpárja."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrán látható útkereszteződéshez érkezik. Melyik jármű haladhat tovább elsőként?",
+        "image": "ateszt1/9_23.gif",
+        "answers": [
+            "Az „A” jelű jármű.",
+            "Az Ön motorkerékpárja."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrán látható útkereszteződéshez érkezik. Melyik jármű haladhat tovább elsőként?",
+        "image": "ateszt1/9_24.gif",
+        "answers": [
+            "Az „A” jelű jármű.",
+            "Az Ön motorkerékpárja."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt1/9_25.gif",
+        "answers": [
+            "Elsőbbséget kell adnia az „A” jelű jármű részére.",
+            "Továbbhalad, mert elsőbbsége van az „A” jelű járművel szemben."
+        ]
+    },
+    {
+        "question": "Melyik jármű haladhat tovább elsőként az ábrázolt forgalmi helyzetben?",
+        "image": "ateszt1/9_26.gif",
+        "answers": [
+            "Az „A” jelű jármű.",
+            "A „B” jelű jármű.",
+            "A motorkerékpár."
+        ]
+    },
+    {
+        "question": "Melyik jármű részére köteles a motorkerékpáros elsőbbséget adni?",
+        "image": "ateszt1/9_27.gif",
+        "answers": [
+            "Csak az „A” jelű jármű részére.",
+            "Csak a „B” jelű jármű részére.",
+            "Az „A” és a „B” jelű jármű részére egyaránt."
+        ]
+    },
+    {
+        "question": "Melyik járműé az elsőbbség az ábrán látható forgalmi helyzetben?",
+        "image": "ateszt1/9_28.gif",
+        "answers": [
+            "Az „A” jelűé.",
+            "A „B” jelűé."
+        ]
+    },
+    {
+        "question": "Mikor haladhat át a motorkerékpár az ábrán látható útkereszteződésben?",
+        "image": "ateszt1/9_29.gif",
+        "answers": [
+            "A „B” jelű jármű után, az „A” jelű jármű előtt.",
+            "Az „A” és a „B” jelű járművek után.",
+            "Az „A” és a „B” jelű járművek előtt."
+        ]
+    },
+    {
+        "question": "Szabályos-e, ha az „A” jelű motorkerékpár az ábrázolt párhuzamos közlekedésre alkalmas úttesten, azonos forgalmi sávon belül megelőzi a kerékpárt?",
+        "image": "ateszt1/9_30.gif",
+        "answers": [
+            "Megfelelő oldaltávolság tartása mellett – igen.",
+            "Nem.",
+            "Csak lakott területen belül."
+        ]
+    },
+    {
+        "question": "Milyen hosszúságú belátható szabad út szükséges az előzés biztonságos végrehajtásához?",
+        "image": "",
+        "answers": [
+            "Legalább az előzési út hosszával megegyező.",
+            "Legalább az előzési út hosszának a kétszerese.",
+            "Legalább az előzési út hosszának a háromszorosa."
+        ]
+    },
+    {
+        "question": "Az alábbiak közül mit a legnehezebb felmérni előzéskor?",
+        "image": "",
+        "answers": [
+            "A szembejövő jármű méreteit.",
+            "A szembejövő jármű sebességét.",
+            "A szükséges oldaltávolságot."
+        ]
+    },
+    {
+        "question": "Körforgalomban alkalmazni kell-e a párhuzamos közlekedés szabályait, ha ott a továbbhaladásra két forgalmi sáv van?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Adhat-e hangjelzést kikerülési szándékának jelzésére?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ráhajthat-e a vasúti átjáróra, ha a teljes sorompó rúdjai mozgásban vannak?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Főútvonalon közlekedik. Kényszerítheti-e Önt egy másik jármű fékezésre vagy irányváltoztatásra?",
+        "image": "",
+        "answers": [
+            "Igen, mert számos olyan helyzet adódhat, amelyet csak a partner közreműködésével lehet biztonságosan megoldani.",
+            "Csak balesetveszély esetén, a baleset megelőzése érdekében.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Elsőbbséget kell-e adnia egyenrangú útkereszteződésben a balról érkező villamospótló autóbusz részére?",
+        "image": "",
+        "answers": [
+            "Igen, ha az a villamosvágányon közlekedik.",
+            "Igen, minden esetben.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Kell-e irányjelzéssel jelezni a körforgalmú útra történő bekanyarodást?",
+        "image": "",
+        "answers": [
+            "Igen, minden esetben.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Figyelembe kell-e venni az egyirányú forgalmú úton az ellenirányban kijelölt autóbusz forgalmi sávot a besorolás szempontjából?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mivel kell számolni elsősorban a vezetőnek, ha idős emberek mennek át az úttesten?",
+        "image": "",
+        "answers": [
+            "Hogy a közlekedési szabályokat szándékosan nem tartják be.",
+            "Hogy olykor figyelmetlenek, megállnak vagy visszafordulnak az úttesten.",
+            "Hogy mindig a szabályokat megtartva fegyelmezetten közlekednek."
+        ]
+    },
+    {
+        "question": "Megállhat-e menetirány szerinti bal oldalon, a forgalom irányával szemben?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Milyen útvonalon feltétele a járdán való megállásnak, hogy azt jelzőtábla vagy útburkolati jel jelezze?",
+        "image": "",
+        "answers": [
+            "Csak főútvonalon.",
+            "Főútvonalon és mellékútvonalon egyaránt."
+        ]
+    },
+    {
+        "question": "Autópályán folyamatos előzésbe kezdett. Hogyan kell a megkülönböztető jelzéseit használó gépkocsi részére szabad utat adnia, ha a jobb szélső sávban közlekedők nem szorosan felzárkózva követik egymást?",
+        "image": "",
+        "answers": [
+            "A jobb szélső forgalmi sávba való visszatéréssel.",
+            "A forgalmi sáv belső szélére való húzódással.",
+            "Lassítással és megállással."
+        ]
+    },
+    {
+        "question": "Megfordulhat-e az autópályán?",
+        "image": "",
+        "answers": [
+            "Igen, ha ezzel nem akadályozza a többi jármű közlekedését.",
+            "Csak ott, ahol az elválasztó sáv betonnal borított.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mikor kötelező tompított fényszóróval kivilágítani a forgalomban részt vevő motorkerékpárt?",
+        "image": "",
+        "answers": [
+            "Mindig.",
+            "Csak éjszaka és korlátozott viszonyok között.",
+            "Csak éjszaka."
+        ]
+    },
+    {
+        "question": "Szükséges-e a közlekedésben az egymáshoz való alkalmazkodás?",
+        "image": "",
+        "answers": [
+            "Nem, mert a KRESZ mindenkire egyformán vonatkozik.",
+            "Nem, mert a közlekedésben mindenkinek önállóan kell dönteni.",
+            "Igen, mert aki nem képes alkalmazkodni, az előbb vagy utóbb baleset okozója vagy szenvedő alanya lesz."
+        ]
+    },
+    {
+        "question": "Hogyan kell közlekedni a járművel a közlekedés biztonságát közvetlenül nem veszélyeztető műszaki hiba esetén?",
+        "image": "",
+        "answers": [
+            "Fokozott óvatossággal, lehetőleg kis forgalmú úton és időszakban.",
+            "Legfeljebb 40 km/h sebességgel.",
+            "Legfeljebb 30 km/h sebességgel."
+        ]
+    },
+    {
+        "question": "Szabad-e szóló motorkerékpárral segédmotoros kerékpárt vagy kerékpárt vontatnia?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Áthaladhat-e gyalogosként az autóút útestjén?",
+        "image": "",
+        "answers": [
+            "Igen, bárhol.",
+            "Nem.",
+            "Csak útkereszteződésben."
+        ]
+    },
+    {
+        "question": "Közlekedhet-e segédmotoros kerékpárjával a leállósávon?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Csak akkor, ha lassú haladásával a gépjárműveket akadályozná.",
+            "Nem, az úttest szélén kell haladnia."
+        ]
+    },
+    {
+        "question": "Az ábrán látható benzincsap hány helyzetbe állítható?",
+        "image": "ateszt1/9_51.gif",
+        "answers": [
+            "Nyitott és zárt helyzetbe.",
+            "Nyitott, tartalék és zárt helyzetbe."
+        ]
+    },
+    {
+        "question": "Ha a kerékolajozás esetén a benzinhez az előírt keverési aránynál jóval kevesebb olajat kevernek, akkor…",
+        "image": "",
+        "answers": [
+            "a motor tüzelőanyag-fogyasztása nagymértékben megnő.",
+            "a motorba benzinben szegény keverék jut.",
+            "a motor nagyon melegszik, a dugattyú besülhet."
+        ]
+    },
+    {
+        "question": "Mi a hiba valószínű oka, ha a hajtólánc zajosan működik (recseg), és leugrik a lánckerékről?",
+        "image": "",
+        "answers": [
+            "A hajtólánc kopott, magnyúlt.",
+            "A hátsó kerék nem nyomkövető.",
+            "A hajólánc kenetlen."
+        ]
+    },
+    {
+        "question": "Mikor célszerű a gumiabroncs levegőnyomását mérni?",
+        "image": "",
+        "answers": [
+            "Indulás előtt, amikor a gumiabroncs hideg.",
+            "Hosszabb út megtétele után, amikor a gumiabroncs meleg."
+        ]
+    },
+    {
+        "question": "Miért nem szabad a kiolvadt biztosítót dróttal, szöggel vagy egyéb fémmel helyettesíteni?",
+        "image": "",
+        "answers": [
+            "Mert rövidzárlat esetén a felizzó vezeték tüzet okozhat.",
+            "Mert az izzólámpák kiégnek.",
+            "Mert az akkumulátor kimerül. "
+        ]
+    },
+    {
+        "question": "Hogyan kell beállítani motorkerékpárján a visszapillantó tükröt?",
+        "image": "",
+        "answers": [
+            "A tükör belső szélében még éppen látható legyen a motorkerékpár, illetve a vezető.",
+            "A tükörben a motorkerékpár ne legyen látható, csak a mögötte lévő út.",
+            "A tükörben a teljes motorkerékpár látható legyen."
+        ]
+    },
+    {
+        "question": "Szabad-e motorkerékpárt becsatolt bukósisak nélkül vezetni?",
+        "image": "",
+        "answers": [
+            "Csak a motoros triciklit.",
+            "Csak a zárt utastérrel (vezetőtérrel) rendelkezőt.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Szállíthat-e motorkerékpárja pótülésén olyan gyermeket, akinek a lába még nem éri el a lábtartókat?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "A járművezetők általában hogyan becsülik meg a távolságokat és a sebességeket?",
+        "image": "",
+        "answers": [
+            "A távolságot pontosan, a sebességet pontatlanul becsülik.",
+            "A távolságot következetesen alá-, a sebességet, pedig rendszeresen túlbecsülik.",
+            "A távolságot következetesen túl-, a sebességet, pedig rendszeresen alábecsülik."
+        ]
+    },
+    {
+        "question": "A csúszósurlódási erő...",
+        "image": "",
+        "answers": [
+            "csak a mozgás irányával ellentétesen hat.",
+            "csak a mozgás irányával megegyezően hat.",
+            "a mozgás irányától függetlenül hat."
+        ]
+    },
+    {
+        "question": "Milyen sebességgel haladhat motorkerékpárjával lakott területen kívüli fő- vagy mellékútvonalon?",
+        "image": "",
+        "answers": [
+            "Legfeljebb 100 km/h sebességgel.",
+            "Legfeljebb 90 km/h sebességgel.",
+            "Legfeljebb 70 km/h sebességgel."
+        ]
+    },
+    {
+        "question": "Járműve sebességét úgy kell megválasztania, hogy...",
+        "image": "",
+        "answers": [
+            "bármilyen akadály előtt meg tudjon állni.",
+            "minden olyan akadály előtt meg tudjon állni, amelyre az adott körülmények között számítania kell."
+        ]
+    },
+    {
+        "question": "Hogyan változik a motorkerékpár első és hátsó kerekének terhelése hirtelen fékezéskor?",
+        "image": "",
+        "answers": [
+            "Az első kerék terhelése csökken, a hátsó kerék terhelése növekszik.",
+            "Az első kerék terhelése növekszik, a hátsó kerék terhelése csökken.",
+            "A két kerék terhelése hirtelen fékezés következtében nem váltózik."
+        ]
+    },
+    {
+        "question": "Az alábbiak közül mikor válik az úttest legveszélyesebben csúszóssá?",
+        "image": "",
+        "answers": [
+            "Amikor az eső elered, mert a víz az útestet borító porral nyálkás réteget alkot.",
+            "Amikor az esővíz az útestről a port jól lemosta.",
+            "Amikor a burkolatot az esővíz már jó ideje áztatja."
+        ]
+    },
+    {
+        "question": "Hányszorosára nő a fékút kétszeres sebességről fékezve?",
+        "image": "",
+        "answers": [
+            "Kb. kétszeresére.",
+            "Kb. négyszeresére.",
+            "Kb. hatszorosára."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "ateszt2/10_11.gif",
+        "answers": [
+            "Zsákutcát, amelyben kerékpárosok részére a továbbhaladás lehetősége biztosított.",
+            "Azt, hogy az út a kerékpárosok részére zsákutca.",
+            "Azt, hogy az út kerékpárútként folytatódik."
+        ]
+    },
+    {
+        "question": "Behajthat-e gépjárművel a tábla által jelzett övezetbe?",
+        "image": "ateszt2/10_12.gif",
+        "answers": [
+            "Nem, kivéve, ha mozgáskorlátozott személyt szállít.",
+            "Igen, de csak az út kezelője által kiadott engedéllyel.",
+            "Igen, de legfeljebb 10 km/h sebességgel."
+        ]
+    },
+    {
+        "question": "Mire kell számítania, ha ezt a táblát látja?",
+        "image": "ateszt2/10_13.gif",
+        "answers": [
+            "A táblával jelölt helyhez közeledve, a bukkanó miatt jelentősen csökken a látótávolság.",
+            "Az úttest szélét a nehéz gépkocsik letaposták, és az így kialakult nyomvályú rontja a járműve nyomtartását.",
+            "Az útburkolatba a sebességcsökkenés érdekében ún. \"huppanó\" van beépítve."
+        ]
+    },
+    {
+        "question": "Melyik járművet előzheti gépjárművel közvetlenül e jelzőtábla után?",
+        "image": "ateszt2/10_14.gif",
+        "answers": [
+            "A motoros triciklit.",
+            "A lovas kocsit.",
+            "Az úttest szélén lévő vágányon haladó villamost."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "ateszt2/10_15.gif",
+        "answers": [
+            "Az \"Elsőbbségadás kötelező\" táblára kell számítani, a kiegészítő táblán feltüntetett távolságra.",
+            "Az \"Állj! Elsőbbségadás kötelező\" táblára kell számítani, a kiegészítő táblán feltüntetett távolságra.",
+            "Az elsőbbségadási kötelezettség a kiegészítő táblán feltüntetett hosszúságú útszakaszon áll fenn."
+        ]
+    },
+    {
+        "question": "Hogyan kell áthaladnia a táblával megjelölt helyen?",
+        "image": "ateszt2/10_16.gif",
+        "answers": [
+            "Megállás nélkül legalább 5 km/h átlagsebességgel.",
+            "Külön-külön kell megállnia a két vagy több sínpár előtt, és ismételten meg kell győződnie a továbbhaladás veszélyességéről."
+        ]
+    },
+    {
+        "question": "A táblával jelölt útszakaszról bekanyarodhat-e az út másik oldalán lévő ingatlanra?",
+        "image": "ateszt2/10_17.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Behajthat-e oldalkocsis motorkerékpárjával, a táblával jelölt útra?",
+        "image": "ateszt2/10_18.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Előzhet-e a táblával jelzett útkereszteződésben?",
+        "image": "ateszt2/10_19.gif",
+        "answers": [
+            "Igen.",
+            "Csak akkor, ha az előzés az úttest menetirány szerinti bal oldalának igénybevételével nem jár.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Hol kell megállítania motorkerékpárját, ha a forgalomirányító fényjelző készülék piros jelzésére érkezik az ábrázolt útkereszteződéshez?",
+        "image": "ateszt2/10_20.gif",
+        "answers": [
+            "A haladási irányt tekintve az első megállás helyét jelző vonalnál.",
+            "A két, keresztirányú, egymást követő vonal között.",
+            "A haladási irányt tekintve a második megállás helyét jelző vonalnál."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrán látható útkereszteződéshez érkezik. Melyik jármű haladhat tovább elsőként?",
+        "image": "ateszt2/10_21.gif",
+        "answers": [
+            "Az \"A\" jelű jármű.",
+            "Az Ön motorkerékpárja."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt2/10_23.gif",
+        "answers": [
+            "Elsőbbséget kell adnia az \"A\" jelű jármű részére.",
+            "Továbbhalad, mert elsőbbsége van az \"A\" jelű járművel szemben."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrán látható útkereszteződéshez érkezik. Melyik jármű haladhat tovább elsőként?",
+        "image": "ateszt2/10_24.gif",
+        "answers": [
+            "Az \"A\" jelű jármű.",
+            "Az Ön motorkerékpárja."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt2/10_25.gif",
+        "answers": [
+            "Elsőbbséget kell adnia az \"A\" jelű jármű részére.",
+            "Továbbhaladhat, mert elsőbbsége van az \"A\" jelű járművel szemben."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt2/10_26.gif",
+        "answers": [
+            "Elsőbbséget kell adnia az \"A\" jelű jármű részére.",
+            "Továbbhaladhat, mert elsőbbsége van az \"A\" jelű járművel szemben."
+        ]
+    },
+    {
+        "question": "Melyik jármű részére köteles elsőbbséget adni a motorkerékpáros?",
+        "image": "ateszt2/10_27.gif",
+        "answers": [
+            "Csak az \"A\" jelű jármű részére.",
+            "Csak a \"B\" jelű jármű részére.",
+            "Az \"A\" és a \"B\" jelű járművek részére egyaránt."
+        ]
+    },
+    {
+        "question": "Melyik járműé az elsőbbség az ábrán látható forgalmi helyzetben?",
+        "image": "ateszt2/10_28.gif",
+        "answers": [
+            "Az \"A\" jelűé.",
+            "A \"B\" jelűé.",
+            "Kölcsönösen meg kell egyezniük az elsőbbség kérdésében."
+        ]
+    },
+    {
+        "question": "Melyik jármű haladhat az útkereszteződésben elsőként tovább?",
+        "image": "ateszt2/10_29.gif",
+        "answers": [
+            "Az \"A\" jelű jármű.",
+            "A \"B\" jelű jármű.",
+            "A motorkerékpár."
+        ]
+    },
+    {
+        "question": "Mikor haladhat át a motorkerékpár az ábrán látható útkereszteződésben?",
+        "image": "ateszt2/10_30.gif",
+        "answers": [
+            "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+            "Az \"A\" és a \"B\" jelű járművek után.",
+            "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt."
+        ]
+    },
+    {
+        "question": "Szabályos- e, ha az \"A\" jelű motorkerékpár az ábrázolt párhuzamos közlekedésre alkalmas úttesten, folyamatosan elhalad a jobb szélső forgalmi sávban közlekedő járművek mellett?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Legalább mekkora sebességkülönbség szükséges az előző és az előzendő gépjárművek között, hogy az előzési út ne legyen túl hosszú?",
+        "image": "",
+        "answers": [
+            "Kb. 5...6 km/h.",
+            "Kb. 10...15 km/h.",
+            "Kb. 15...20 km/h."
+        ]
+    },
+    {
+        "question": "Hosszú járműszerelvények előzésekor mekkora oldaltávolságot célszerű tartani?",
+        "image": "",
+        "answers": [
+            "Kis oldaltávolságot, mert az ilyen jármű iránytartása jó.",
+            "Az egyébkén megszokott oldaltávolságot.",
+            "Nagyobb oldaltávolságot, mert az ilyen jármű nyomeltérése nagy lehet."
+        ]
+    },
+    {
+        "question": "Útburkolati jellel jelölt, párhuzamos közlekedésre alkalmas úttesten elhaladhat-e szóló motorkerékpárjával az ugyanazon forgalmi sávon belül közlekedő gépkocsi mellett?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Kell-e irányjelzéssel jelezni az irányváltoztatás nélkül végrehajtott kikerülést?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ráhajthat-e a vasúti átjáróra, ha a teljes sorompó rúdjai nyitott helyzetben vannak, de az azt kiegészítő hangjelző berendezés már jelzést nem ad?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Főútvonalon halad. Elsőbbséget kell-e adnia az alárendelt úton érkező, sárga villogó jelzést használó gépjármű részére?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Kell-e irányjelzést adni másik útra történő bekanyarodáskor?",
+        "image": "",
+        "answers": [
+            "Igen, minden esetben.",
+            "Igen, kivéve a körforgalomba való behajtást.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Elsőbbséget kell-e adnia egyenrangú útkereszteződésben a balról érkező villamospótló autóbusz részére?",
+        "image": "",
+        "answers": [
+            "Igen, ha az a villamosvágányon halad.",
+            "Igen, minden esetben.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mi a teendője, ha a járműforgalom irányítására szolgáló készülék piros fényjelzést ad, de az útkereszteződésben álló, rendőr jelzése a továbbhaladást engedi?",
+        "image": "",
+        "answers": [
+            "Megáll és vár, amíg a rendőr jelzése összhangba kerül a fényjelzéssel.",
+            "Továbbhalad, mert ilyen esetben a rendőr felülbírálhatja a lámpa jelzését.",
+            "Megáll, mert az ellentétes értelmű jelzésnél mindig a szigorúbbat kell figyelembe venni, hiszen az kevésbé balesetveszélyes."
+        ]
+    },
+    {
+        "question": "Miért jelent idős emberek számára nagyobb veszélyt a forgalom, mint a fiatalok számára?",
+        "image": "",
+        "answers": [
+            "Mert általában gyengébben látnak, nehezebben mozognak, lassabban reagálnak, és nem tudják helyesen megbecsülni a járművek sebességet.",
+            "Mert nem ismerik a közlekedési szabályokat.",
+            "Mert kevésbé fegyelmezettek, és nem tartják be a közlekedési szabályokat."
+        ]
+    },
+    {
+        "question": "Mikor állhat meg járművével az egyirányú fogalmi úttest bal szélén?",
+        "image": "",
+        "answers": [
+            "Ha a járműve mellett az úttest jobb széléig mérve legalább 3 m szélességű hely marad.",
+            "Ha a járműve mellett az úttest jobb széléig mérve legalább 4 m szélességű hely marad.",
+            "Ha a járműve mellett az úttest jobb széléig mérve legalább 5,5 m szélességű hely marad."
+        ]
+    },
+    {
+        "question": "Olyan helyen, ahol megakadályozhatja a szabályosan várakozó másik jármű megközelítését, ott...",
+        "image": "",
+        "answers": [
+            "megállni tilos.",
+            "megállhat, de nem várakozhat.",
+            "megállni, várakozni egyaránt tilos."
+        ]
+    },
+    {
+        "question": "Autópályán Ön a belső sávban közlekedik. Hogyan kell a megkülönböztető jelzéseit használó gépjármű részére szabad utat adnia, ha a sávokban összefüggő járműoszlopok alakultak ki?",
+        "image": "",
+        "answers": [
+            "A forgalmi sáv jobb szélére húzódással.",
+            "A forgalmi sáv belső szélére húzódással."
+        ]
+    },
+    {
+        "question": "Szabad-e autópályáról az út menti ingatlanra, útnak nem minősülő más területre lehajtani?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ki kell-e világítani a forgalomban részt vevő oldalkocsis motorkerékpárt nappal és jó látási viszonyok között?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Hasznos-e egy-egy elképzelt közlekedési helyzet gondolatban való megoldása?",
+        "image": "",
+        "answers": [
+            "Nem, ennek semmi értelme nincs.",
+            "Igen, ez segíti a közlekedési érzék és gondolkodás kialakulását.",
+            "Nem, mert ha gondolatban meg tudja oldani, akkor ez a valóságban is sikerülne."
+        ]
+    },
+    {
+        "question": "Hol kell elhelyezni az elromlott járművet?",
+        "image": "",
+        "answers": [
+            "Olyan helyen, ahol szükséges javítás a legkönnyebben elvégezhető.",
+            "Lehetőség szerint, az úttesten kívül vagy olyan helyen, ahol a várakozás nem tilos."
+        ]
+    },
+    {
+        "question": "Személyi serüléssel járó baleset, illetve jármű kigyulladása esetén kötelesek-e balesettel nem érintett járművek vezetői segítséget nyújtani?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Közlekedhet-e gyalogosként az útpadkán, ha az úton van járda?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Útburkolati jellel jelölt párhuzamos közlekedésre alkalmas úttesten elhaladhat-e segédmotoros kerékpárjával az ugyanazon forgalmi sávon belül közlekedő személygépkocsi mellett?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Milyen keverék szükséges a hideg motor indításához?",
+        "image": "",
+        "answers": [
+            "Benzinben dús keverék, mert a benzin egy része lecsapódik a hideg motorban.",
+            "Helyes súlyarányú keverék, hogy a motor könnyebben beinduljon.",
+            "Benzinben szegény keverék, mert a levegőben lévő vízgőz lecsapódik a motorban."
+        ]
+    },
+    {
+        "question": "Üzemeltetheti-e tovább a szivattyús olajozású motort, ha az olajnyomás valamilyen hiba miatt megszűnt?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "A kép melyik változata szemlélteti a patentszem biztosítólemezének helyes szerelését?",
+        "image": "ateszt2/10_53.gif",
+        "answers": [
+            "Az \"A\" változat.",
+            "A \"B\" változat."
+        ]
+    },
+    {
+        "question": "A motorkerékpár gumiabroncsa csak addig használható, amíg a futófelület bordázatának magassága - a teljes felületen - eléri...",
+        "image": "",
+        "answers": [
+            "a 3 mm-t.",
+            "az 1,6 mm-t.",
+            "az 1 mm-t."
+        ]
+    },
+    {
+        "question": "Mi a biztosító feladata az áramkörben?",
+        "image": "",
+        "answers": [
+            "Rövidzárlat esetén, ha az áramerősség nagyobb a megengedettnél, a biztosító megszakítja az áramkört.",
+            "Ha a feszültség a megengedettnél nagyobb, megszakítja az áramkört.",
+            "Ha a dinamó nem tölt, megszakítja az áramkört. "
+        ]
+    },
+    {
+        "question": "Mit kell figyelembe venni a kötelezően előírt bukósisak használatánál?",
+        "image": "",
+        "answers": [
+            "A fejméretnek megfelelően legyen beállítva, és jól legyen becsatolva.",
+            "Nem fontos a fejmérethez való beállítás, de jól legyen becsatolva.",
+            "Bármilyen bukósisak becsatolás nélkül is védelmet nyújt."
+        ]
+    },
+    {
+        "question": "A motorkerékpár pótülésén hány gyermek szállítható?",
+        "image": "",
+        "answers": [
+            "Csak egy.",
+            "Két, a 10. életévét nem betöltött gyermek."
+        ]
+    },
+    {
+        "question": "Milyen hosszú tárgyat szabad szállítania kétkerekű motorkerékpárján?",
+        "image": "",
+        "answers": [
+            "Olyan hosszúságút, hogy sem előre, sem hátra ne nyúljon 1m-nél hosszabbra.",
+            "A szállított tárgy nem nyúlhat sem előre, sem hátra a motorkerékpáron."
+        ]
+    },
+    {
+        "question": "Hogyan változik a vezető látása a jármű sebességének növekedésével?",
+        "image": "",
+        "answers": [
+            "Nagy sebességgel haladva csak a közeli tárgyakat látjuk élesen; távolra csak homályosan látunk.",
+            "Nagy sebességgel haladva csak a távoli tárgyak képe éles, a közeli tárgyak képe elmosódik."
+        ]
+    },
+    {
+        "question": "Milyen összefüggés van a jármű sebessége és mozgási energiája között?",
+        "image": "",
+        "answers": [
+            "A sebesség növekedésével egyenes arányban nő a mozgási energia.",
+            "A sebesség növekedésével négyzetes arányban nő a mozgási energia.",
+            "A mozgási energia a sebességtől független."
+        ]
+    },
+    {
+        "question": "Milyen sebességgel haladhat motorkerékpárjával autópályán?",
+        "image": "",
+        "answers": [
+            "Legfeljebb 130 km/h sebességgel.",
+            "Legfeljebb 120 km/h sebességgel.",
+            "Legfeljebb 110 km/h sebességgel."
+        ]
+    },
+    {
+        "question": "Járműve sebességét úgy kell megválasztania, hogy…",
+        "image": "",
+        "answers": [
+            "a féktávolsága ne legyen hosszabb, mint a belátható útszakasz.",
+            "a belátható útszakasz ne legyen hosszabb, mint a reakcióidő alatt befutott út.",
+            "a féktávolsága ne legyen hosszabb, mint a belátható útszakasz fele."
+        ]
+    },
+    {
+        "question": "Helyes-e, ha a motorkerékpár erőteljes fékezésekor a fékezőerőt a kézifékkel növeli, a lábfékkel pedig csökkenti?",
+        "image": "",
+        "answers": [
+            "Nem, mert a fékút nagymértékben megnő.",
+            "Nem, mert az első kerék hajlamosabb a megcsúszásra, mint a hátsó kerék.",
+            "Igen, mert az első kerék terhelése nő, a hátsó keréké csökken."
+        ]
+    },
+    {
+        "question": "Mi a reakcióidő fékezéskor?",
+        "image": "",
+        "answers": [
+            "Az akadály észlelésétől a motorkerékpár megállásáig eltelt idő.",
+            "Az akadály észlelésétől a fékpedál érintéséig eltelt idő.",
+            "A fékpedál lenyomásától a motorkerékpár megállásáig eltelt idő."
+        ]
+    },
+    {
+        "question": "Hányszorosára nő a fékút háromszoros sebességről fékezve?",
+        "image": "",
+        "answers": [
+            "Kb. háromszorosára.",
+            "Kb. hatszorosára.",
+            "Kb. kilencszeresére."
+        ]
+    },
+    {
+        "question": "Számítania kell-e szembejövő forgalomra, ha az útra történő behajtáskor ezt a táblát látja?",
+        "image": "ateszt3/11_11.gif",
+        "answers": [
+            "Nem.",
+            "Igen, a kerékpársávon közlekedő kerékpárosra."
+        ]
+    },
+    {
+        "question": "Behajthat-e gépjárművel a tábla által jelzett övezetbe, ha lakóhelye nem ott van?",
+        "image": "ateszt3/11_12.gif",
+        "answers": [
+            "Nem.",
+            "Igen, de csak az út kezelője által kiadott engedéllyel, a kiegészítő táblán feltűntetett időszakon kívül.",
+            "Igen, a kiegészítő táblán feltüntetett időszakban."
+        ]
+    },
+    {
+        "question": "Mire kell számítania a táblával jelzett helyen?",
+        "image": "ateszt3/11_13.gif",
+        "answers": [
+            "Veszélyes lejtőre, ahol féktávolsága azonos sebesség esetén is hosszabb lesz, mint sík úton.",
+            "Az út oldalirányú dőlése miatt járműve könnyebben megcsúszhat.",
+            "Az út menti rézsű miatt az útpadkára hajtani veszélyes."
+        ]
+    },
+    {
+        "question": "Előzhet-e közvetlenül a tábla után oldalkocsis motorkerékpárt?",
+        "image": "ateszt3/11_14.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Hogyan kell megközelíteni a táblával jelzett útkereszteződést?",
+        "image": "ateszt3/11_15.gif",
+        "answers": [
+            "Fokozott figyelemmel és fékkészenlétben. A jármű sebességét csak akkor kell csökkenteni - szükség szerint hirtelen fékezéssel is -, ha van keresztező forgalom.",
+            "Úgy, hogy eleget tehessen elsőbbségadási kötelezettségének, és e tekintetben másokat a jármű sebességével ne tévesszen meg.",
+            "A kötelező megállásra és elsőbbségadásra felkészülve."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "ateszt3/11_16.gif",
+        "answers": [
+            "Az úton sorompó nélküli vasúti átjáró van.",
+            "Az úton teljes vagy félsorompóval biztosított vasúti átjáró van.",
+            "Az úton olyan vasúti átjáró van, amelynél a vasúti jármű áthaladását jelzőőr biztosítja."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "ateszt3/11_17.gif",
+        "answers": [
+            "A kötelező haladási irány végét.",
+            "A balra bekanyarodási tilalom végét.",
+            "Az útkereszteződésben megfordulni és balra bekanyarodni tilos."
+        ]
+    },
+    {
+        "question": "Behajthat-e kétkerekű motorkerékpárral a táblával jelölt útra?",
+        "image": "ateszt3/11_18.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "ateszt3/11_19.gif",
+        "answers": [
+            "Azt, hogy a tábla utáni útszakaszon erős légörvényre kell számítani.",
+            "Azt, hogy a következő útkereszteződésben körforgalom van.",
+            "Azt, hogy a tábla utáni útszakaszon megfordulni veszélyes."
+        ]
+    },
+    {
+        "question": "Mit jelez az útburkolatra festett X-jel?",
+        "image": "ateszt3/11_20.gif",
+        "answers": [
+            "Rakodóhelyet.",
+            "Megállási tilalmat.",
+            "Várakozási tilalmat."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt3/11_21.gif",
+        "answers": [
+            "Elsőbbséget kell adni az „A” jelű jármű részére.",
+            "Továbbhaladhat, mert elsőbbsége van az „A” jelű járművel szemben.",
+            ""
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrán látható útkereszteződéshez érkezik. Melyik jármű haladhat tovább elsőként?",
+        "image": "ateszt3/11_22.gif",
+        "answers": [
+            "Az „A” jármű.",
+            "Az Ön motorkerékpárja."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt3/11_23.gif",
+        "answers": [
+            "Elsőbbséget kell adnia az „A” jelű jármű részére.",
+            "Továbbhaladhat, mert elsőbbsége van az „A” jelű járművel szemben.",
+            ""
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt3/11_24.gif",
+        "answers": [
+            "Elsőbbséget kell adnia az „A” jelű jármű részére.",
+            "Továbbhaladhat, mert elsőbbsége van az „A” jelű járművel szemben.",
+            ""
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrán látható útkereszteződéshez érkezik. Melyik jármű haladhat tovább elsőként?",
+        "image": "ateszt3/11_25.gif",
+        "answers": [
+            "Az „A” jelű jármű.",
+            "Az Ön motorkerékpárja.",
+            ""
+        ]
+    },
+    {
+        "question": "Mikor haladhat át a motorkerékpár az ábrázolt útkereszteződésben?",
+        "image": "ateszt3/11_26.gif",
+        "answers": [
+            "Az „A” és a „B” jelű járművek előtt.",
+            "Az „A” jelű jármű után, a „B” jelű jármű előtt.",
+            "A „B” jelű jármű után, az „A” jelű jármű előtt."
+        ]
+    },
+    {
+        "question": "Megelőzheti-e az ábrázolt helyen és módon a motorkerékpáros a gépkocsit?",
+        "image": "ateszt3/11_27.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Melyik jármű részére köteles a motorkerékpáros elsőbbséget adni?",
+        "image": "ateszt3/11_28.gif",
+        "answers": [
+            "Csak az „A” jelű jármű részére.",
+            "Csak a „B” jelű jármű részére.",
+            "Az „A” és a „B” jelű járművek részére egyaránt."
+        ]
+    },
+    {
+        "question": "Mikor haladhat át a motorkerékpár az ábrán látható útkereszteződésen?",
+        "image": "ateszt3/11_29.gif",
+        "answers": [
+            "Az „A” és a „B” jelű járművek előtt.",
+            "Az „A” jelű jármű után, a „B” jelű jármű előtt.",
+            "Az „A” és a „B” jelű járművek után."
+        ]
+    },
+    {
+        "question": "A motorkerékpár lakott területen kívül az ábrázolt párhuzamos közlekedésre alkalmas úttesten közeledik. Köteles-e az előzést követően a berajzolt pályavonal szerint visszatérni a külső forgalmi sávba?",
+        "image": "ateszt3/11_30.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mennyire közelíthető meg az előzendő jármű felzárkózásból történő előzés előtt?",
+        "image": "",
+        "answers": [
+            "Annyira, hogy a távolság a két jármű között a féktávolságnak feleljen meg.",
+            "Néhány méterre, hogy az előzési út hossza minél rövidebb legyen.",
+            "Csak annyira, hogy az előzendő jármű hirtelen fékező megállása esetén is még biztonságosan meg tudjunk állni."
+        ]
+    },
+    {
+        "question": "Milyen oldaltávolságot célszerű tartani kerékpáros előzésekor?",
+        "image": "",
+        "answers": [
+            "Kb. egy kocsi szélességnyi oldaltávolságot, mert a kerékpáros iránytartása bizonytalan.",
+            "Kis oldaltávolságot, mert a kerékpár sebessége csekély.",
+            "Az előzésnél szokásos fél kocsi szélességnyi oldaltávolságot."
+        ]
+    },
+    {
+        "question": "Szabályos-e, ha két kétkerekű motorkerékpár azonos forgalmi sávon belül egymás mellett halad?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Kell-e irányjelzéssel jelezni az irányváltoztatással járó kikerülést?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Szükséges-e a vasúti átjárót fokozott óvatossággal megközelítenie, ha ott a teljes sorompó mindkét rúdja nyitott helyzetben áll?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Főútvonalon halad. Elsőbbséget kell-e adnia az alárendelt úton érkező, megkülönböztető jelzéseit használó gépjármű részére?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mikor hajthat rá az azonos irányú autóbusz forgalmi sávra?",
+        "image": "",
+        "answers": [
+            "Ha ott akar megállni.",
+            "A bekanyarodásra való felkészülés esetén.",
+            "Csak munkaszüneti napokon."
+        ]
+    },
+    {
+        "question": "Balra kíván bekanyarodni. Általában hová kell besorolnia kétirányú forgalmú úton?",
+        "image": "",
+        "answers": [
+            "Az úttest felezővonala mellé.",
+            "Az úttest bal szélére."
+        ]
+    },
+    {
+        "question": "Mit kell szem előtt tartania, ha motorkerékpárjával villamossíneken halad keresztül, különösen nedves, síkos útviszonyok esetén?",
+        "image": "",
+        "answers": [
+            "Kellőképpen lassít, és hegyesszögben keresztezi a síneket.",
+            "A sínfelület mindig csúszósabb, ezért kellőképpen lassít, és közel derékszögben keresztezi a síneket.",
+            "Kellőképpen lassít, és a sínek irányával közel azonos irányban halad azokon keresztül."
+        ]
+    },
+    {
+        "question": "Mi a helyes magatartás rendbontó, szabálytalankodó partnerrel való találkozás esetén?",
+        "image": "",
+        "answers": [
+            "Igyekszik eltávolodni a rendbontó közeléből.",
+            "Nem veszi figyelembe a szabálytalankodó magatartását.",
+            "Igyekszik megleckéztetni a rendbontót."
+        ]
+    },
+    {
+        "question": "Szabad-e megállni közvetlen a kijelölt gyalogos-átkelőhely előtt?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Olyan helyen, ahol akadályozhatja a szabályosan várakozó másik jármű elindulását, ott…",
+        "image": "",
+        "answers": [
+            "megállni tilos.",
+            "megállhat, de nem várakozhat.",
+            "megállni, várakozni egyaránt szabad."
+        ]
+    },
+    {
+        "question": "Szabad-e az autópályára vagy az autóútra az út menti ingatlanról, valamint útnak nem minősülő más területről ráhajtani?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Autópályán közlekedik. Hol állhat meg kikapcsolódás (pihenés) céljából?",
+        "image": "",
+        "answers": [
+            "A leállósávon.",
+            "Az útpadkán.",
+            "Az út mellett lévő kiépített várakozóhelyen."
+        ]
+    },
+    {
+        "question": "Mi a helyes magatartás, ha éjjel, országúton a szembejövő jármű miatt a távolsági fényszóróról tompított fényszóróra kapcsol?",
+        "image": "",
+        "answers": [
+            "Gyorsít, hogy minél előbb elhaladjon a szembejövő jármű mellett.",
+            "Változatlan sebességgel halad, szorosan az úttest szélén, hogy elkerülje az ütközést.",
+            "Lassít, hogy a féktávolsága rövidebb legyen, mint a belátható szabad út hossza."
+        ]
+    },
+    {
+        "question": "Célszerű-e egy veszélyes közlekedési helyzetet, balesetet utólag értékelni?",
+        "image": "",
+        "answers": [
+            "Nem, mert kétszer ugyanaz a helyzet nagy valószínűséggel nem fordul elő.",
+            "Igen, mert az elméletileg megtalált helyes megoldás hasonló esetben elősegíti a gyors és helyes döntést.",
+            "Nem, mert a veszélyhelyzet, baleset felidézése stresszhatást vált ki."
+        ]
+    },
+    {
+        "question": "Szóló motorkerékpárján a féklámpa meghibásodott. Folytathatja-e az útját, ha a féklámpa jelzését karjelzéssel pótolni tudná?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mi a legfontosabb teendője, ha éjszaka egy forgalmas útszakaszon elsőként érkezik egy személyi sérüléssel járó közúti baleset színhelyére?",
+        "image": "",
+        "answers": [
+            "Azonnal segítőtársakat kell keresnie a mentéshez és az elsősegélynyújtáshoz.",
+            "Félrehúzódva kell megállnia, és egy újabb baleset elkerülése érdekében gondoskodnia kell a helyszín közlekedési biztosításáról.",
+            "Az úttesten keresztbe fordulva kell megállnia, és azonnal meg kell kezdeni a sérültek kimentését."
+        ]
+    },
+    {
+        "question": "Tiltja-e az áthaladást a fénysorompó tilos jelzése a gyalogos számára?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem, kellő körültekintés után, ha a vonat még távol van, áthaladhat."
+        ]
+    },
+    {
+        "question": "Segédmotoros kerékpárral közlekedik. Hol kell nappal és jó látási viszonyok között kivilágítania tompított fényszóróval a járművét?",
+        "image": "",
+        "answers": [
+            "Csak lakott területen.",
+            "Csak lakott területen kívül.",
+            "Lakott területen és azon kívül egyaránt."
+        ]
+    },
+    {
+        "question": "Szabad-e motorkerékpár motorját zárt helyiségben huzamosabb ideig működtetni?",
+        "image": "",
+        "answers": [
+            "Nem, mert a kipufogógázban levő szén-monoxid belélegezve fejfájást, majd halált okoz.",
+            "Igen, mert a kipufogógázban nincsenek mérgező anyagok."
+        ]
+    },
+    {
+        "question": "Hogyan kell a hajtóláncot utánállítani?",
+        "image": "ateszt3/11_52.gif",
+        "answers": [
+            "A 3 csavar fellazítása után a 2 csavar elforgatásával.",
+            "Az 1 csavar meghúzása után a 2 csavar elforgatásával.",
+            "Az 1 és a 2 anya fellazítása után a 3 állítócsavar elforgatásával."
+        ]
+    },
+    {
+        "question": "Milyen időközönként kell a gumiabroncsok levegőnyomását mérni?",
+        "image": "",
+        "answers": [
+            "Legalább naponta.",
+            "Legalább hetenként.",
+            "Legalább havonta."
+        ]
+    },
+    {
+        "question": "Éjszaka, tiszta időben hány méterre kell a tompított fényszórónak megvilágítania az út felületét anélkül, hogy a szembejövő járművek vezetőjét vakítaná?",
+        "image": "",
+        "answers": [
+            "Legalább 150 m távolságban.",
+            "Legalább 100 m távolságban.",
+            "Legalább 40 m távolságban."
+        ]
+    },
+    {
+        "question": "Hogyan tölthető fel a kimerült akkumulátor?",
+        "image": "",
+        "answers": [
+            "Váltakozó árammal. A töltőáram erőssége az akkumulátor kapacitásának kb. 1/10-e legyen.",
+            "Egyenárammal. A töltőáram erőssége ne legyen több, mint az akkumulátor kapacitásának 1/10-e.",
+            "Egyenárammal. A töltőáram erőssége ne legyen kevesebb az akkumulátor kapacitásának a felénél."
+        ]
+    },
+    {
+        "question": "Részt vehet-e a közúti forgalomban motorkerékpárjával, ha az első kerék fékberendezése üzemképtelen?",
+        "image": "",
+        "answers": [
+            "Igen, mert az elsőkerékféknekcsak alárendelt feladata van.",
+            "Nem, mert üzemképes elsőkerék fék nélkül tilos közlekedni.",
+            "Csak a telephelyig vagy a legközelebbi javítóműhelyig mehet, fokozott óvatossággal."
+        ]
+    },
+    {
+        "question": "A motorkerékpárja oldalkocsijában szállított utas köteles-e becsatolt bukósisakot viselni?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Válassza ki, hogy melyik felel meg a valóságnak az alábbi - perifériás látómezőre vonatkozó - kijelentések közül?",
+        "image": "",
+        "answers": [
+            "A szemük sarkából - a perifériás látómezőben - látott tárgyaknak a színét rosszul látjuk, de távolságukat és sebességüket kielégítő pontossággal fel tudjuk mérni.",
+            "A szemünk sarkából - a perifériás látómezőben - látott tárgyaknak a távolságát és a sebességét csak pontatlanul tudjuk megbecsülni, de a színét jól látjuk.",
+            "A szemünk sarkából - a perifériás látómezőben - látott tárgyaknak a színét rosszul látjuk, a távolságát és a sebességét pedig csak pontatlanul megbecsülni."
+        ]
+    },
+    {
+        "question": "Mire figyelünk fel önkéntelenül?",
+        "image": "",
+        "answers": [
+            "Az erős, hirtelen fellépő vagy újszerű ingerekre, és azokra is, amelyek valamely erős belső szükségletünkkel kapcsolatosak.",
+            "Csak az erős, hirtelen fellépő vagy újszerű ingerekre.",
+            "Csak azokra az ingerekre, amelyek valamely erős belső szükségletünkkel kapcsolatosak."
+        ]
+    },
+    {
+        "question": "Mitől függ az elérhető vonóerő nagysága?",
+        "image": "",
+        "answers": [
+            "A meghajtott kerekek és a talaj között ébredő tapadóerő nagyságától.",
+            "A tömegközéppont helyzetétől.",
+            "A meghajtási módtól."
+        ]
+    },
+    {
+        "question": "Milyen sebességgel haladhat motorkerékpárjával autóúton?",
+        "image": "",
+        "answers": [
+            "Legfeljebb 120 km/h sebességgel.",
+            "Legfeljebb 110 km/h sebességgel.",
+            "Legfeljebb 80 km/h sebességgel."
+        ]
+    },
+    {
+        "question": "Hogyan kell a járműve sebességét megválasztania a megengedett sebességhatárokon belül?",
+        "image": "",
+        "answers": [
+            "Úgy, hogy megtudjon állni a belátott útszakaszon belül, és minden olyan akadály előtt, amelyre az adott körülmények között számítania kell.",
+            "Úgy, hogy bármely, az úttesten hirtelen felbukkanó váratlan akadály előtt is meg tudjon állni.",
+            "Úgy, hogy a sebessége ne legyen kisebb az adott útszakaszon megengedett legnagyobb sebességnél."
+        ]
+    },
+    {
+        "question": "Miként változik a motorkerékpár fékútja, ha csak a lábféket használja?",
+        "image": "",
+        "answers": [
+            "A fékút csak nagyon kis mértékben változik, mivel a kézifék nem hatásos fékberendezés.",
+            "A fékút több mint a kétszeresére növekszik.",
+            "A fékút több mint a háromszorosára növekszik, hiszen a kézifék nem működik."
+        ]
+    },
+    {
+        "question": "Mekkora a fékezést megelőző reakcióideje egy átlagos képességű gépjárművezetőnek?",
+        "image": "",
+        "answers": [
+            "Kb. 2...3 s.",
+            "Kb. 1...2 s.",
+            "Kb. 0,6...0,7 s."
+        ]
+    },
+    {
+        "question": "Hányszorosára növekszik a fékút, ha a tapadási tényező a felére csökken?",
+        "image": "",
+        "answers": [
+            "Kétszeresére.",
+            "Négyszersére.",
+            "Nyolcszorosára."
+        ]
+    },
+    {
+        "question": "Számítania kell-e szembejövő forgalomra, ha az útra történő behajtáskor ezt a táblát látja?",
+        "image": "ateszt4/12_11.gif",
+        "answers": [
+            "Nem.",
+            "Igen, az autóbusz forgalmi sávban közlekedő autóbuszra."
+        ]
+    },
+    {
+        "question": "Behajthat-e gépjárművel a tábla által jelzett övezetbe, ha nem rendelkezik az út kezelője által kiadott engedéllyel?",
+        "image": "ateszt4/12_12.gif",
+        "answers": [
+            "Nem.",
+            "Igen, a kiegészítő táblán feltüntetett időszakon kívül, amennyiben az övezetben lakik.",
+            "Igen, a kiegészítő táblán feltüntetett időszakon belül."
+        ]
+    },
+    {
+        "question": "Mire kell számítania a táblával jelzett helyen?",
+        "image": "ateszt4/12_13.gif",
+        "answers": [
+            "A kerékpáros a kerékpárról leszállva gyalogosként fogja keresztezni az úttestet.",
+            "Az úttesten jelentős kerékpáros-forgalom van.",
+            "Az úton a kerékpárosok a gépkocsikkal szemben egy külön elválasztott sávban haladhatnak."
+        ]
+    },
+    {
+        "question": "Közvetlenül a tábla után megelőzhet-e egy balra bekanyarodási szándékát jelző és szabályszerűen besorolt gépkocsit?",
+        "image": "ateszt4/12_14.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Útkereszteződéshez közeledve ezt a táblát látja. Hol kell megállítania a járművét, ha a megállás helyét útburkolati jellel nem jelölték?",
+        "image": "ateszt4/12_15.gif",
+        "answers": [
+            "A tábla vonalában.",
+            "A tábla előtt.",
+            "Az útkereszteződésbe való behajtás előtt olyan helyen, ahonnan a keresztező út belátható."
+        ]
+    },
+    {
+        "question": "Mit jelez ez a tábla?",
+        "image": "ateszt4/12_16.gif",
+        "answers": [
+            "Az úton olyan vasúti átjáró van, amelynél teljes vagy félsorompó felszerelve nincs.",
+            "Az úton teljes sorompóval biztosított vasúti átjáró van.",
+            "Az úton olyan vasúti átjáró van, amelynél a vasúti jármű áthaladását jelzőőr biztosítja."
+        ]
+    },
+    {
+        "question": "Az útkereszteződésnél ezt a táblát látja. Megfordulhat-e az útkereszteződésben?",
+        "image": "ateszt4/12_17.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Behajthet-e pótkocsit (utánfutót) vontató motorkerékpárral a táblával jelölt útra?",
+        "image": "ateszt4/12_18.gif",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Lehet-e elsőbbségsdási kötelezettsége a következő útkereszteződésben, ha a csomópontot ilyen táblával jelzik?",
+        "image": "ateszt4/12_19.gif",
+        "answers": [
+            "Igen.",
+            "Csak akkor, ha útját villamos keresztezi. Nem."
+        ]
+    },
+    {
+        "question": "Az alábbiak közül mikor kell megállnia a táblával jelzett hely előtt?",
+        "image": "ateszt4/12_20.gif",
+        "answers": [
+            "Ha a jelzőőrt sehol nem látja.",
+            "Ha a jelzőőr jelzőtárcsával vagy - feltartott, illetőleg az úttesten állványra helyezett - piros fényű lámpával jelzést ad.",
+            ""
+        ]
+    },
+    {
+        "question": "Motorkrékpárjával az ábrán látható útkereszteződéshez érkezik. Melyik jármű haladhat tovább elsőként?",
+        "image": "ateszt4/12_21.gif",
+        "answers": [
+            "Az \"A\" jalű jármű.",
+            "Az Ön motorkerékpárja.",
+            ""
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt4/12_22.gif",
+        "answers": [
+            "Elsőbbséget kell adnia az \"A\" jelű jármű részére.",
+            "Továbbhalad, mert elsőbbsége van az \"A\" jelű járművel szemben."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt4/12_23.gif",
+        "answers": [
+            "Elsőbbséget kell adnia az \"A\" jelű jármű részére.",
+            "Továbbhalad, mert elsőbbsége van az \"A\" jelű járművel szemben.",
+            ""
+        ]
+    },
+    {
+        "question": "Motorkrékpárjával az ábrán látható útkereszteződéshez érkezik. Melyik jármű haladhat tovább elsőként?",
+        "image": "ateszt4/12_24.gif",
+        "answers": [
+            "Az \"A\" jelű jármű.",
+            "Az Ön motorkerékpárja."
+        ]
+    },
+    {
+        "question": "Motorkerékpárjával az ábrázolt útkereszteződéshez érkezik. Mi a teendője?",
+        "image": "ateszt4/12_25.gif",
+        "answers": [
+            "Elsőbbséget kell adnia az \"A\" jelű jármű részére.",
+            "Továbbhalad, mert elsőbbsége van az \"A\" jelű járművel szemben."
+        ]
+    },
+    {
+        "question": "Melyik jármű részére köteles elsőbbséget adni a motorkerékpáros?",
+        "image": "ateszt4/12_26.gif",
+        "answers": [
+            "Csak az \"A\" jelű jármű részére.",
+            "Csak a \"B\" jelű jármű részére.",
+            "Az \"A\" és a \"B\" jelű járművek részére egyaránt."
+        ]
+    },
+    {
+        "question": "Melyik jármű részére köteles elsőbbséget adni a motorkerékpáros?",
+        "image": "ateszt4/12_27.gif",
+        "answers": [
+            "Csak az \"A\" jelű jármű részére.",
+            "Csak a \"B\" jelű jármű részére.",
+            "Az \"A\" és a \"B\" jelű jármű részére egyaránt."
+        ]
+    },
+    {
+        "question": "Megelőzheti-e az ábrázolt helyen és módon a motorkerékpáros a villamost?",
+        "image": "ateszt4/12_28.gif",
+        "answers": [
+            "Igen, az előzésre vonatkozó egyéb szabályok megtartásával.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Mikor haladhat át az ábrázolt útkereszteződésen a motorkerékpár?",
+        "image": "ateszt4/12_29.gif",
+        "answers": [
+            "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+            "Az \"A\" és a \"B\" jelű járművek előtt.",
+            "Az \"A\" és a \"B\" jelű járművek után."
+        ]
+    },
+    {
+        "question": "Szabályos-e, ha az \"A\" jelű kétkerekű motorkerékpár az ábrázolt párhuzamos közlekedésre alkalmas úttesten, azonos forgalmi sávon belül megelőzi a lovas kocsit?",
+        "image": "ateszt4/12_30.gif",
+        "answers": [
+            "Megfelelő oldaltávolság mellett - igen.",
+            "Nem.",
+            "Csak lakott területen belül."
+        ]
+    },
+    {
+        "question": "Hogyan célszerű előzni változó sűrűségű szembejövő forgalomban?",
+        "image": "",
+        "answers": [
+            "Állandó nagy sebességgel.",
+            "Nagy gyorsítással a megengedett sebességhatáron belül.",
+            "Kis gyorsítással nagyobb sebességfokozatba kapcsolva."
+        ]
+    },
+    {
+        "question": "Egyenrangú utak kereszteződésében számíthat-e arra, hogy szóló motorkerékpárját egy gépkocsi megelőzi?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Lakott területen motorkerékpárral olyan úttesten közlekedik, amelyen a párhuzamos közlekedés számára három forgalmi sáv van. Ráhajthat-e a harmadik sávra?",
+        "image": "",
+        "answers": [
+            "Igen, de csak előzés vagy bekanyarodás céljából.",
+            "Igen, folyamatos haladás céljából is.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Az úttesten álló járművet csak a menetirány szerinti bal oldal igénybevételével tudja kikerülni. Kell-e jeleznie a manővert befejező visszatérést az úttest jobb szélére?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Ráhajthat-e a vasúti átjáróra, ha a félsorompó nyitott állapotban van, de a fénysorompó villogó piros fényjelzést ad?",
+        "image": "",
+        "answers": [
+            "Kellő körültekintés mellett igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Földúton haladva szilárd burkolatú utat keresztez. Kell-e elsőbbséget adnia?",
+        "image": "",
+        "answers": [
+            "Igen, de csak a jobbról érkező járművek részére.",
+            "Igen, mindkét irányból érkező járművek részére."
+        ]
+    },
+    {
+        "question": "Jobbra kíván bekanyarodni. Köteles-e az útkereszteződés előtt az úttest jobb szélén levő autóbusz forgalmi sávba besorolni?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "A kanyarodósávot útburkolati jelekkel a villamospályán jelölték ki. Akadályozhatja-e a villamospályára való ráhajtáskor a villamost?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Az elsőbbségről való lemondást minden esetben el kell-e fogadni?",
+        "image": "",
+        "answers": [
+            "Nem, csak akkor, ha meggyőződött saját maga és partnereinek biztonságáról.",
+            "Igen, mert ilyenkor a partneré a felelősség.",
+            "Igen, mert ezzel gyorsítható a forgalom."
+        ]
+    },
+    {
+        "question": "Forgalomirányító fényjelző készülék piros jelzésénél elsőként várakozik. Mikor és hogyan készül fel az indulásra?",
+        "image": "",
+        "answers": [
+            "Már a piros jelzésnél kapcsolja az I. sebességfokozatot, hogy haladéktalanul el tudjon indulni.",
+            "A fényjelző készülék piros-sárga jelzésénél kapcsolja az I. sebességfokozatot.",
+            "A fényjelző készülék zöld jelzésénél kapcsolja az I. sebességfokozatot."
+        ]
+    },
+    {
+        "question": "Szabad-e megállni a villamos-megállóhelynél levő járdasziget és a hozzá közelebb eső járda között?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Szabad-e várakoznia olyan úton, amely három külön úttesttel rendelkezik?",
+        "image": "",
+        "answers": [
+            "Egyáltalán nem.",
+            "Igen, de csak a szélső úttesteken.",
+            "Igen, de csak a középső úttesten."
+        ]
+    },
+    {
+        "question": "Szabad-e megfordulni autópályán, illetve autóúton?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Lakott területen kívül köteles-e előzés előtt hangjelzést adni?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Merre irányítja tekintetét, ha éjjel, szembejövő gépjárművel találkozik?",
+        "image": "",
+        "answers": [
+            "A szembejövő járművet nézi, hogy elkerülje az ütközést.",
+            "Az úttest felezővonalát nézi, hogy elkerülje az ütközést.",
+            "Az út jobb szélét figyeli, mivel így kevésbé vakítja el a szembejövő jármű fényszórója, és felbukkanó akadályra is itt számíthat leginkább."
+        ]
+    },
+    {
+        "question": "Mi a lényege annak a nagyon fontos vezetési alapelvnek, amit \"tájékoztató vezetésmódnak\" nevezünk?",
+        "image": "",
+        "answers": [
+            "Az, hogy a vezető irányváltoztatási szándékáról tájékoztatja a közlekedés többi résztvevőjét.",
+            "Az, hogy a vezető a kötelező jelzésmódokon kívül a gépjármű mozgásának szabályozásával is már jó előre tájékoztatja szándékáról a közlekedés többi résztvevőjét."
+        ]
+    },
+    {
+        "question": "Meg kell-e jelölnie lakott területen kívül elakadást jelző háromszöggel a leállósávon levő, elromlott oldalkocsis motorkerékpárját?",
+        "image": "",
+        "answers": [
+            "Igen.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Egy személyi sérüléssel járó közúti balesaet helyszínén a megállást követően az első teendők helyes sorrendje:",
+        "image": "",
+        "answers": [
+            "mentők értesítése, sérültek ellátása, helyszín biztosítása, rendőrség értesítése.",
+            "helyszín biztosítása, tájékozódás, elsősegélynyújtás, mentők értesítése.",
+            "sérültek ellátása, rendőrség értesítése, helyszín biztosítása, mentők értesítése."
+        ]
+    },
+    {
+        "question": "Kiléphet-e az úttestre gyalogosként a szabad kilátást gátló akadály mögül?",
+        "image": "",
+        "answers": [
+            "Csak ott, ahol a járművekkel szemben elsőbbsége van és meggyőződött az áthaladás veszélytelenségéről.",
+            "Kellő körültekintéssel és óvatossággal bárhol.",
+            "Nem."
+        ]
+    },
+    {
+        "question": "Hány kétkerekű segédmotoros kerékpár helyezhető el egy gépkocsi részére szolgáló útburkolati jellel megjelölt várakozóhelyen?",
+        "image": "",
+        "answers": [
+            "Csak egy.",
+            "Legfeljebb kettő.",
+            "Amennyi elfér."
+        ]
+    },
+    {
+        "question": "A kerékolajozásra jellemző, hogy...",
+        "image": "",
+        "answers": [
+            "az elporlasztott benvizn és olaj levegővel keveredve jut a kenedő helyekhez.",
+            "az olajat szivattyú nyomja a kenedő helyekhez."
+        ]
+    },
+    {
+        "question": "Mit kell minden esetben ellenőrizni a hajtólánc utánállítása vagy abroncsszerelés után?",
+        "image": "",
+        "answers": [
+            "Hogy a kerekek egy síkban vannak-e.",
+            "Hogy a gumiabroncsok nyomása megfelelő-e.",
+            "Hogy a lengéscsillapítók hatásosan működnek-e."
+        ]
+    },
+    {
+        "question": "Hogyan történik az ábrán látható mechanikus fék holtjátékának a beszabályozása?",
+        "image": "ateszt4/12_53.gif",
+        "answers": [
+            "A 3 jelű csavar állításával.",
+            "Az 1 jelű fékpofák elforgatásával.",
+            "A 2 jelű fékkulcs cseréjével."
+        ]
+    },
+    {
+        "question": "Éjszaka, tiszta időben hány méter távolságban kell megvilágítani az út felületét a távolsági fényszórónak?",
+        "image": "",
+        "answers": [
+            "Legalább 150 m-re.",
+            "Legalább 100 m-re.",
+            "Legalább 40 m-re."
+        ]
+    },
+    {
+        "question": "Milyen folyadékot kell az akkumulátorba tölteni, ha a folyadék szintje csökken?",
+        "image": "",
+        "answers": [
+            "Higított sósavat.",
+            "Desztilált vizet vagy ioncserélt vizet.",
+            "Desztilált vízzel higított kénsavat."
+        ]
+    }
+]

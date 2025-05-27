@@ -34,6 +34,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<SessionService>();
 builder.Services.AddScoped<QuizService>();
 builder.Services.AddScoped<QuestionService>();
+builder.Services.AddScoped<DataSeeder>();
 
 var app = builder.Build();
 
@@ -44,24 +45,24 @@ using (var scope = app.Services.CreateScope())
     try
     {
         var context = services.GetRequiredService<ApplicationDbContext>();
-        
-        // Ensure database is created
-        context.Database.EnsureCreated();
-        
-        // Apply migrations
-        context.Database.Migrate();
-        
-        // Seed data
-        await QuestionSeed.SeedQuestionsAsync(context);
-        
+        var seeder = services.GetRequiredService<DataSeeder>();
         var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogInformation("Database setup completed successfully.");
+        
+        // Ensure database exists
+        logger.LogInformation("Ensuring database exists...");
+        await context.Database.EnsureCreatedAsync();
+        
+        // Seed data from JSON files
+        logger.LogInformation("Starting data seeding...");
+        await seeder.SeedDataAsync();
+        
+        logger.LogInformation("Database setup and seeding completed successfully.");
     }
     catch (Exception ex)
     {
         var logger = services.GetRequiredService<ILogger<Program>>();
         logger.LogError(ex, "An error occurred while setting up the database.");
-        throw; // Rethrow to fail startup if database setup fails
+        throw;
     }
 }
 
