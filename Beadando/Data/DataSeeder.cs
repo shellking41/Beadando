@@ -6,6 +6,7 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Beadando.Models;
 using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
 
 namespace Beadando.Data
 {
@@ -145,6 +146,21 @@ namespace Beadando.Data
                 _logger.LogError(ex, "An error occurred while seeding the database");
                 throw;
             }
+        }
+
+        private class QuestionData
+        {
+            public int Id { get; set; }
+            public string Text { get; set; }
+            public string Image { get; set; }
+        }
+
+        private class AnswerData
+        {
+            public int Id { get; set; }
+            public int QuestionId { get; set; }
+            public string Text { get; set; }
+            public bool IsCorrect { get; set; }
         }
     }
 } 

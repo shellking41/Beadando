@@ -10,7 +10,7 @@ namespace Beadando.Models
         public int Id { get; set; }
         
         [Required]
-        public required string SessionKey { get; set; }
+        public required string Token { get; set; }
         
         public bool IsActive { get; set; }
         

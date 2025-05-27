@@ -13,12 +13,12 @@ namespace Beadando.Models
         public required string Title { get; set; }
 
         [Required]
-        public required string Description { get; set; }
+        public string? Description { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public List<Question> Questions { get; set; } = new();
 
-        public ICollection<UserQuizResult> Results { get; set; } = new List<UserQuizResult>();
+        public List<UserQuizResult> UserQuizResults { get; set; } = new();
     }
 }

@@ -372,23 +372,23 @@ function showQuestion() {
     const question = currentQuiz.questions[currentQuestionIndex];
     console.log('Showing question:', question);
 
-    // Kérdés szövegének megjelenítése
+  
     $('#questionText').text(question.text);
     
-    // Kép megjelenítése, ha van
+   
     let questionContent = question.text;
     if (question.image) {
-        const imageName = question.image.split('/').pop(); // Csak a fájlnév
-        const imageDir = question.image.split('/')[0]; // Az első mappanév (pl. bteszt4)
+        const imageName = question.image.split('/').pop(); 
+        const imageDir = question.image.split('/')[0]; 
         let imagePath;
         
-        // Ha btesztX/ kezdetű
+       
         if (imageDir.startsWith('bteszt')) {
-            imagePath = `bteszt/${imageDir}/${imageName}`; // pl. bteszt/bteszt1/kep.gif
+            imagePath = `bteszt/${imageDir}/${imageName}`;
         }
-        // Ha atesztX/ kezdetű
+      
         else if (imageDir.startsWith('ateszt')) {
-            imagePath = `ateszt/${imageDir}/${imageName}`; // pl. ateszt/ateszt1/kep.gif
+            imagePath = `ateszt/${imageDir}/${imageName}`; 
         }
         
         questionContent = `
@@ -570,7 +570,7 @@ function displayResults(results) {
     
     $('#resultsTableBody').html(resultsHtml || '<tr><td colspan="5" class="text-center">Nincsenek még eredmények.</td></tr>');
 
-    // Add click handler for the details buttons
+   
     $('.show-details-btn').on('click', async function() {
         const quizId = $(this).data('quiz-id');
         const resultRow = $(this).closest('tr');
@@ -578,14 +578,14 @@ function displayResults(results) {
         const spinner = detailsRow.find('.spinner-border');
         const detailsContent = detailsRow.find('.quiz-details-content');
         
-        // Toggle the details row
+       
         detailsRow.toggleClass('d-none');
         
-        // Update button text
+        
         const btnText = detailsRow.hasClass('d-none') ? 'Részletek' : 'Bezárás';
         $(this).text(btnText);
 
-        // If showing details and content not loaded yet
+        
         if (!detailsRow.hasClass('d-none') && !detailsContent.data('loaded')) {
             try {
                 spinner.removeClass('d-none');
@@ -620,17 +620,16 @@ async function loadQuizDetails(quizId) {
 
 function displayQuizDetails(details, container) {
     const questionsHtml = details.questions.map((q, index) => {
-        // Fix image path
+     
         let imagePath = '';
         if (q.questionImage) {
             const parts = q.questionImage.split('/');
             if (parts.length >= 2) {
-                const imageDir = parts[0]; // e.g., "bteszt3"
-                const imageName = parts[1]; // e.g., "55_11.gif"
+                const imageDir = parts[0]; 
+                const imageName = parts[1]; 
                 
-                // Extract the base directory and number
-                const baseDir = imageDir.replace(/[0-9]+$/, ''); // "bteszt" or "ateszt"
-                const number = imageDir.match(/\d+$/)?.[0] || '1'; // "3" or default to "1"
+                const baseDir = imageDir.replace(/[0-9]+$/, ''); 
+                const number = imageDir.match(/\d+$/)?.[0] || '1'; 
                 
                 imagePath = `/img/${baseDir}/${baseDir}${number}/${imageName}`;
             }

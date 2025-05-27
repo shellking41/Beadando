@@ -97,7 +97,6 @@ namespace Beadando.Services
 
         public async Task<QuizStartResponse> StartNewQuizAsync(int userId)
         {
-            // Delete any unfinished quiz results for this user
             var unfinishedQuizzes = await _context.UserQuizResults
                 .Where(q => q.UserId == userId && !q.CompletedAt.HasValue)
                 .ToListAsync();
